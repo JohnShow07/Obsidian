@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+                "file": "Uni/WiSe26/DB2/Folie 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapitel 2"
+              "title": "Folie 1"
             }
           }
         ],
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+                "file": "Uni/WiSe26/DB2/Folie 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kapitel 2"
+              "title": "Backlinks for Folie 1"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+                "file": "Uni/WiSe26/DB2/Folie 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kapitel 2"
+              "title": "Outline of Folie 1"
             }
           },
           {
@@ -233,8 +233,8 @@
   },
   "active": "75026b6567c8096d",
   "lastOpenFiles": [
-    "README.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+    "README.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "1.1) Historie.md",
     "2025-10-25.md",
