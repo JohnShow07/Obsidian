@@ -1,28 +1,14 @@
 {
   "main": {
-    "id": "913d366d056de7c3",
+    "id": "08df0fce8f2710d3",
     "type": "split",
     "children": [
       {
-        "id": "5b3b2ad78a62fc95",
+        "id": "25da0aed6d95649f",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b168002b796668",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kapitel 1"
-            }
-          },
-          {
-            "id": "75026b6567c8096d",
+            "id": "5f9a7a3b9afc1dd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,23 +21,21 @@
               "title": "Folie 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2bb2095bed789246",
+    "id": "998118417126febb",
     "type": "split",
     "children": [
       {
-        "id": "fa2e577e69956120",
+        "id": "e4afbfda10a0246a",
         "type": "tabs",
-        "dimension": 71.07355864811133,
         "children": [
           {
-            "id": "8beaec0859c813e6",
+            "id": "55297c3859f4c51e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +48,7 @@
             }
           },
           {
-            "id": "1a6eafc5e3bdd819",
+            "id": "52caecf56ccacb53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +65,7 @@
             }
           },
           {
-            "id": "b9b7b46c5c37b0cb",
+            "id": "74ff17600d60f611",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,44 +75,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "b055cbc3dde5c6ca",
-        "type": "tabs",
-        "dimension": 28.926441351888666,
-        "children": [
-          {
-            "id": "4e63a76bdfb30893",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "31eea603abe8a925",
+    "id": "23a84abf1c8d379f",
     "type": "split",
     "children": [
       {
-        "id": "802c22b443bade3f",
+        "id": "62b588dca7e4c92b",
         "type": "tabs",
         "children": [
           {
-            "id": "b80a95d52a00cdc7",
+            "id": "e2185b78b6a751a2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/WiSe26/DB2/Folie 1.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,11 +104,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Folie 1"
+              "title": "Backlinks for README"
             }
           },
           {
-            "id": "d3fdb853a90caedf",
+            "id": "f5bec0b703cdbaaa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -156,7 +122,7 @@
             }
           },
           {
-            "id": "8e5ec209841ffdc4",
+            "id": "47ff2966570aef2f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -171,22 +137,22 @@
             }
           },
           {
-            "id": "a6f8ad3b408e24bd",
+            "id": "8cb26b79634b324e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/WiSe26/DB2/Folie 1.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Folie 1"
+              "title": "Outline of README"
             }
           },
           {
-            "id": "c25c7bd6966164e2",
+            "id": "23ed6e719993bbed",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,16 +160,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "e0282c3f9d80eefd",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4bd45da720757dc5",
+            "id": "49188eb446758209",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -212,26 +171,31 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c25c7bd6966164e2",
+  "active": "5f9a7a3b9afc1dd3",
   "lastOpenFiles": [
+    "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",
+    "Untitled.canvas",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "Pasted image 20251025182814.png",
     "Pasted image 20251025180949.png",
     "Pasted image 20251025180930.png",
@@ -240,17 +204,9 @@
     "Pasted image 20251025174653.png",
     "Pasted image 20251025174246.png",
     "Pasted image 20251025174219.png",
-    "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
-    "README.md",
-    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "1.1) Historie.md",
-    "2025-10-25.md",
-    "Untitled.canvas",
-    "Uni/WiSe26/BB10",
-    "Uni/WiSe26/BB11/Untitled",
-    "Uni/WiSe26/BB11",
+    "README.md",
     "Uni/WiSe26/Betriebssysteme",
-    "Uni/WiSe26/Bio110",
     "Pasted image 20251025102601.png"
   ]
 }
