@@ -46,3 +46,4 @@ T_2: read(B,y); y:=y+200; write(y, B);
 - **Dirty Read:** eine T liest Daten, die eine andere noch nicht bestätigt(commit) hat.
 	- BSP: T_1 ändert X um 100 und speichert diese. T_2 liest die neue X und berechnet -> commited. Jedoch T_1 war noch nicht fertig/commited, also kann nich abgebrochen werden. Genau dies passiert und werden alle Änderungen in T_1 Rückgängig gemacht. T_2 wird jedoch die gelöschte Änderungen beibehalten.
 	![[Pasted image 20251019223203.png]]
+- **the Phantom-Problem:** Eine T liest mehrere Daten (zB mit SELECT) während iene andere T
