@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 362.5,
+    "collapsed": true
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -232,12 +233,12 @@
   },
   "active": "75026b6567c8096d",
   "lastOpenFiles": [
-    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
+    "README.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "1.1) Historie.md",
     "2025-10-25.md",
     "Untitled.canvas",
-    "README.md",
     "Uni/WiSe26/BB10",
     "Uni/WiSe26/BB11/Untitled",
     "Uni/WiSe26/BB11",
