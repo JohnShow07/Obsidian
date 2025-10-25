@@ -1,6 +1,8 @@
 https://coconucos.cs.uni-duesseldorf.de/lehre/home/lectures/bsusp/k1
 
-## Def. Betriebssystem:
+# Inhalt:
+## 1) Einführung
+### Def. Betriebssystem:
 	"Ab operating system is the software that breathes life into computer"
 	-> Ressourcen des Rechensystems (Brücke zw. Hardware und Anwendern)
 	-> Die Kerne der bekannten kommerzielle Betriebssysteme sind im wesentlichen multi-threaded Programme, geschrieben in C (Linux, Windows, MacOS)
@@ -12,11 +14,9 @@ https://coconucos.cs.uni-duesseldorf.de/lehre/home/lectures/bsusp/k1
 - Komfort: einfaches Nutzen
 - Sicherheit
 
-# Inhalt:
-## 1) Einführung
+
 ## 2) C -> Rust
 ## 3) BS-Übersicht am Beispiel von UNIX
 ## 4) Lösung zu Aufgaben
 ## 5) BS-Übersicht anhand BS-Strukturen
-
 
