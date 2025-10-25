@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Vorlesung 1"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8beaec0859c813e6",
+  "active": "4e63a76bdfb30893",
   "lastOpenFiles": [
+    "README.md",
+    "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",
     "Uni/WiSe26/BB10",
     "Uni/WiSe26/BB11/Untitled",
     "Uni/WiSe26/BB11",
