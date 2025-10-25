@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 200
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +215,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "c4b168002b796668",
+  "active": "8beaec0859c813e6",
   "lastOpenFiles": [
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "2025-10-25.md",
