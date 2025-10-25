@@ -49,5 +49,5 @@ T_2: read(B,y); y:=y+200; write(y, B);
 	- **the Phantom-Problem:** Eine T liest mehrere Daten (zB mit SELECT) während eine andere T neue Daten hinzufügt oder löscht. 
 	  -> also neue Datensätze(Phantom) durch das Lesen der anderer T, den man noch nie gesehen hat. Unten zählt T_1 die Mitarbeiter und speichert in X, dann möchte jedem eine Bonus geben. Währenddessen fügt T_2 eine neue Mitarbeiter, welcher leider nicht diesen Bonus kriegt, da T_1 bereits die Mitarbeiter gezählt hat. 
 	![[Pasted image 20251025174246.png]]
-	- **lost Update:** Zwei Ts lesen und ändern denselben wert gleichzeitig und eine Änderung(die Erste) geht verloren. Im Bsp überschreibt T_2 die X-Änderung von T_1 
+	- **lost Update:** Zwei Ts lesen und ändern denselben wert gleichzeitig und eine Änderung(die Erste) geht verloren. Im Bsp möchten beide Ts die X um 1 erhöhen. T_2 überschreibt die X-Änderung von T_1, da die Änderung noch nicht gespeichert wurde, daher bleibt der Wert bei 11, obwohl das Ziel 12 war. 
 	![[Pasted image 20251025174713.png]]
