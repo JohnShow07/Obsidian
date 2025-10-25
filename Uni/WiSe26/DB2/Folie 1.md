@@ -1,0 +1,48 @@
+## Section 1: Transaktionen
+
+-> Transaktion ist eine Folge von Operationen, die die DB von konsistenten zum konsistenten, veränderten Zustand überführt. (Dabei ACID eingehalten)
+
+#### Beispiele: 
+	- Platzreservierung für Flüge aus vielen Reisebüros gleichzeitig
+	- überschneidende Kontooperationen einer Bank.
+
+#### Aspekte:
+- **semantische Integrität**: korrekter und konsistenter DB Zustand nach Ende der Transaktion.
+- **Ablaufintegrität**: Fehler durch "gleichzeitigen" Zugriff mehrerer Benutzer auf dieselben Daten vermeiden
+
+### ACID
+
+**A**tomicity: Transaktion wird entweder ganz oder gar nicht ausgeführt
+**C**onsistency: DB vor und nach Transaktion in konsistenter Zustand
+**I**solation: User soll den Eindruck haben, dass er alleine an der DB arbeitet.
+**D**urability: nach erfolgreichen Abschluss einer Transaktion muss das Ergebnis dauerhaft in DB gespeichert werden.
+
+#### Commands zur Steuerung
+	BOT: Beginning-of-Transaction
+	commit: die Transaktion soll erfolgreich beendet werden
+	abort: die Transaktion doll abgebrochen werden
+
+##### Ein Beispiel:
+- Übertragung eines Betrages B von einem Konto K1 auf ein anderes Konto K2 (Bedingung: die Summe der Kontostände bleiben erhalten)
+- vereinfachte Notation: 
+```
+Transfer = < K1:=K1-B; K2:=K2+B >;
+```
+- Realisierung in SQL: als Sequenz zweier Elementarer Änderungen Bsp:
+```
+T_1: read(A,x); x:=x-200; write(x, A);
+T_2: read(B,y); y:=y+200; write(y, B);
+```
+- **Falls ein Systemfehlet/Abbruch beim Transaktion passiert, ist DB inkonsistent.**
+
+
+### Mehrbenutzerbetrieb
+-> Mehrere Nutzer arbeiten gleichzeitig mit derselben DB.
+
+#### Probleme:
+- **nonrepeatable Read**: Änderung eines Wertes zwischen zwei Lesevorgängen
+	- BSP: A wird von X gelesen. Dann im Laufe des T_2 wird A zu A/2. X ist trotz dieser Änderung A geblieben.
+	![[Pasted image 20251019222730.png]]
+- **Dirty Read:** eine T liest Daten, die eine andere noch nicht bestätigt(commit) hat.
+	- BSP: T_1 ändert X um 100 und speichert diese. T_2 liest die neue X und berechnet -> commited. Jedoch T_1 war noch nicht fertig/commited, also kann nich abgebrochen werden. Genau dies passiert und werden alle Änderungen in T_1 Rückgängig gemacht. T_2 wird jedoch die gelöschte Änderungen beibehalten.
+	![[Pasted image 20251019223203.png]]
