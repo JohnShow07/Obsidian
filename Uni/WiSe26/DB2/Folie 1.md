@@ -39,7 +39,7 @@ T_2: read(B,y); y:=y+200; write(y, B);
 ### Mehrbenutzerbetrieb
 -> Mehrere Nutzer arbeiten gleichzeitig mit derselben DB.
 
-#### Probleme:
+#### 1.2) Probleme:
 - **nonrepeatable Read**: Änderung eines Wertes zwischen zwei Lesevorgängen
 	- BSP: A wird von X gelesen. Dann im Laufe des T_2 wird A zu A/2. X ist trotz dieser Änderung A geblieben.
 	![[Pasted image 20251019222730.png]]
@@ -51,3 +51,6 @@ T_2: read(B,y); y:=y+200; write(y, B);
 	![[Pasted image 20251025174246.png]]
 	- **lost Update:** Zwei Ts lesen und ändern denselben wert gleichzeitig und eine Änderung(die Erste) geht verloren. Im Bsp möchten beide Ts die X um 1 erhöhen. T_2 überschreibt die X-Änderung von T_1, da die Änderung noch nicht gespeichert wurde, daher bleibt der Wert bei 11, obwohl das Ziel 12 war. 
 	![[Pasted image 20251025174713.png]]
+
+### 1.3) Serialisierbarkeit
+	-> bedeutet, dass mehrere gleichzeitig Ts
