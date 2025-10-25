@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "913d366d056de7c3",
+    "id": "08df0fce8f2710d3",
     "type": "split",
     "children": [
       {
-        "id": "9730069202428c98",
+        "id": "25da0aed6d95649f",
         "type": "tabs",
         "children": [
           {
-            "id": "4e63a76bdfb30893",
+            "id": "5f9a7a3b9afc1dd3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2bb2095bed789246",
+    "id": "998118417126febb",
     "type": "split",
     "children": [
       {
-        "id": "fa2e577e69956120",
+        "id": "e4afbfda10a0246a",
         "type": "tabs",
         "children": [
           {
-            "id": "8beaec0859c813e6",
+            "id": "55297c3859f4c51e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "1a6eafc5e3bdd819",
+            "id": "52caecf56ccacb53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "b9b7b46c5c37b0cb",
+            "id": "74ff17600d60f611",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "31eea603abe8a925",
+    "id": "23a84abf1c8d379f",
     "type": "split",
     "children": [
       {
-        "id": "802c22b443bade3f",
+        "id": "62b588dca7e4c92b",
         "type": "tabs",
         "children": [
           {
-            "id": "b80a95d52a00cdc7",
+            "id": "e2185b78b6a751a2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d3fdb853a90caedf",
+            "id": "f5bec0b703cdbaaa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "8e5ec209841ffdc4",
+            "id": "47ff2966570aef2f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,36 +131,25 @@
             }
           },
           {
-            "id": "a6f8ad3b408e24bd",
+            "id": "8cb26b79634b324e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
-            }
-          },
-          {
-            "id": "c25c7bd6966164e2",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,18 +163,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-<<<<<<< HEAD
-  "active": "a6a7395a3282351c",
-  "lastOpenFiles": [
-    "Lets see if its work.md",
-    "README.md",
-    "Uni/WiSe26/DB2/Folie 1.md",
-    "Untitled.md",
-    "Uni/Pasted image 20251019223154.png",
-    "Uni/Pasted image 20251019222652.png"
-  ]
-=======
-  "active": "4e63a76bdfb30893",
+  "active": "5f9a7a3b9afc1dd3",
   "lastOpenFiles": []
->>>>>>> e8f97d95cfb57570f5f91c04ab5ae7e5e31a80a3
 }
