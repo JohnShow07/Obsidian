@@ -56,5 +56,4 @@ T_2: read(B,y); y:=y+200; write(y, B);
 	-> bedeutet, dass mehrere gleichzeitig laufende Ts so ausgeführt werden, als wären sie nacheinander(seriell) ausgeführt worden.
 	-> Das Ergebnis ist dasselbe, als hätte man die Ts nacheinander ausgeführt
 
-	Bsp:
-	
+	Bsp: 
