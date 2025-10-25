@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9730069202428c98",
+        "id": "5b3b2ad78a62fc95",
         "type": "tabs",
         "children": [
           {
-            "id": "4e63a76bdfb30893",
+            "id": "c4b168002b796668",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Kapitel 1"
+              "title": "New tab"
             }
           }
         ]
@@ -33,6 +29,7 @@
       {
         "id": "fa2e577e69956120",
         "type": "tabs",
+        "dimension": 71.07355864811133,
         "children": [
           {
             "id": "8beaec0859c813e6",
@@ -75,10 +72,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "b055cbc3dde5c6ca",
+        "type": "tabs",
+        "dimension": 28.926441351888666,
+        "children": [
+          {
+            "id": "4e63a76bdfb30893",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 344.5
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -94,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kapitel 1"
+              "title": "Backlinks"
             }
           },
           {
@@ -142,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
@@ -160,7 +172,14 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "e0282c3f9d80eefd",
+        "type": "tabs",
+        "children": [
           {
             "id": "4bd45da720757dc5",
             "type": "leaf",
@@ -171,12 +190,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 359.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +210,8 @@
   },
   "active": "4e63a76bdfb30893",
   "lastOpenFiles": [
-    "2025-10-25.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
+    "2025-10-25.md",
     "Untitled.canvas",
     "README.md",
     "Uni/WiSe26/BB10",
