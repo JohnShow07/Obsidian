@@ -47,5 +47,7 @@ T_2: read(B,y); y:=y+200; write(y, B);
 	- BSP: T_1 ändert X um 100 und speichert diese. T_2 liest die neue X und berechnet -> commited. Jedoch T_1 war noch nicht fertig/commited, also kann nich abgebrochen werden. Genau dies passiert und werden alle Änderungen in T_1 Rückgängig gemacht. T_2 wird jedoch die gelöschte Änderungen beibehalten.
 	![[Pasted image 20251019223203.png]]
 	- **the Phantom-Problem:** Eine T liest mehrere Daten (zB mit SELECT) während eine andere T neue Daten hinzufügt oder löscht. 
-	  -> also neue Datensätze(Phantom) durch das Lesen der anderer T, den man noch nie gesehen hat. Unten zählt T_1 die Mitarbeiter und speichert in X, dann möchte jedem eine Bonus geben. Währenddessen fügt T_2 eine neue Mitarbeiter, welcher leider nicht diesen Bonus kriegt, da T_1 bereits die 
+	  -> also neue Datensätze(Phantom) durch das Lesen der anderer T, den man noch nie gesehen hat. Unten zählt T_1 die Mitarbeiter und speichert in X, dann möchte jedem eine Bonus geben. Währenddessen fügt T_2 eine neue Mitarbeiter, welcher leider nicht diesen Bonus kriegt, da T_1 bereits die Mitarbeiter gezählt hat. 
 	![[Pasted image 20251025174246.png]]
+	- **lost Update:** Zwei Ts lesen und ändern denselben wert gleichzeitig und eine Änderung(die Erste) geht verloren. Im Bsp überschreibt T_2 die X-Änderung von T_1 
+	![[Pasted image 20251025174713.png]]
