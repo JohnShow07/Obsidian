@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Kapitel 1"
             }
+          },
+          {
+            "id": "75026b6567c8096d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kapitel 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
+                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kapitel 1"
+              "title": "Backlinks for Kapitel 2"
             }
           },
           {
@@ -160,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
+                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kapitel 1"
+              "title": "Outline of Kapitel 2"
             }
           },
           {
@@ -215,10 +230,11 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "c4b168002b796668",
+  "active": "75026b6567c8096d",
   "lastOpenFiles": [
-    "1.1) Historie.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+    "1.1) Historie.md",
     "2025-10-25.md",
     "Untitled.canvas",
     "README.md",
