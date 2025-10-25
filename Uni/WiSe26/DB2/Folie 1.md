@@ -53,11 +53,15 @@ T_2: read(B,y); y:=y+200; write(y, B);
 	![[Pasted image 20251025174713.png]]
 
 ### 1.3) Serialisierbarkeit
-	-> bedeutet, dass mehrere gleichzeitig laufende Ts so ausgeführt werden, als wären sie nacheinander(seriell) ausgeführt worden.
-	-> Das Ergebnis ist dasselbe, als hätte man die Ts nacheinander ausgeführt
+-> bedeutet, dass mehrere gleichzeitig laufende Ts so ausgeführt werden, als wären sie nacheinander(seriell) ausgeführt worden.
+-> Das Ergebnis ist dasselbe, als hätte man die Ts nacheinander ausgeführt
 
-	Bsp:
-		T_1: readA; A:= A - 10; writeA; readB;
-			B := B + 10; writeB;
-		T_2: readB; B:= B - 20; writeB; readC;
-			C := C + 20; writeC;
+**Bsp:**
+	$T_1$: readA; A:= A - 10; writeA; readB;
+		B := B + 10; writeB;
+	$T_2$: readB; B:= B - 20; writeB; readC;
+		C := C + 20; writeC;
+
+**Bspiele für verschränkte Ausführungen:**
+-> diese bedeutet, dass mehrere Transaktionen gleichzeitig laufen, und ihre Befehle sich abwechseln (also ineinander verschränkt sind).
+![[Pasted image 20251025182814.png]]

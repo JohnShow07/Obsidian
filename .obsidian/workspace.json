@@ -196,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "e0282c3f9d80eefd",
@@ -216,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,8 +230,9 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "75026b6567c8096d",
+  "active": "c25c7bd6966164e2",
   "lastOpenFiles": [
+    "Pasted image 20251025182814.png",
     "Pasted image 20251025180949.png",
     "Pasted image 20251025180930.png",
     "Pasted image 20251025180922.png",
