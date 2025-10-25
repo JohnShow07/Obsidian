@@ -9,4 +9,4 @@ test number 4
 test number 5 ![[Pasted image 20251025102601.png]]
 test 6: ubuntu obsidian closed
 
-test7: windows obsidian closed
+test7:
