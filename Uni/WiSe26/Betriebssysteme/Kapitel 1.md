@@ -12,3 +12,11 @@ https://coconucos.cs.uni-duesseldorf.de/lehre/home/lectures/bsusp/k1
 - Komfort: einfaches Nutzen
 - Sicherheit
 
+# Inhalt:
+## 1) Einführung
+## 2) C -> Rust
+## 3) BS-Übersicht am Beispiel von UNIX
+## 4) Lösung zu Aufgaben
+## 5) BS-Übersicht anhand BS-Strukturen
+
+
