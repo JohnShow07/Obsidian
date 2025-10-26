@@ -66,4 +66,6 @@ T_2: read(B,y); y:=y+200; write(y, B);
 -> diese bedeutet, dass mehrere Transaktionen gleichzeitig laufen, und ihre Befehle sich abwechseln (also ineinander verschränkt sind).
 ![[Pasted image 20251025182814.png]]
 ![[Pasted image 20251026210217.png]]
--> EIne verschränkte Ausführung mehrerer Ts heißt **serialisierbar**, wenn ihr Effekt identisch zum Effekt einer (beliebig gewählten) seriellen Ausführung dieser Ts ist.
+-> Eine verschränkte Ausführung mehrerer Ts heißt **serialisierbar**, wenn ihr Effekt identisch zum Effekt einer (beliebig gewählten) seriellen Ausführung dieser Ts ist.
+
+**Das Read/Write-Modell:** EIne T mit $T = p_1 \v p_2 p_3... p_n$ 
