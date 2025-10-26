@@ -82,3 +82,4 @@ $T = p_1...p_n a$   oder   $T = p_1...p_n c$
 ![[Pasted image 20251026215541.png]]
 
 Ein serieller Schedule s für T ist ein vollständiger Schedule in der folgenden Form: 
+![[Pasted image 20251026221603.png]]
