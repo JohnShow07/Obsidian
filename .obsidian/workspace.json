@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5,
-    "collapsed": true
+    "width": 390.5
   },
   "right": {
     "id": "23a84abf1c8d379f",
@@ -220,6 +219,9 @@
   },
   "active": "7feb4e441cf6d140",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251026210136.png",
+    "attachments",
+    "Pasted image 20251026205911.png",
     "2025-10-26.md",
     "Uni/WiSe26/DB2/Folie 1.md",
     "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",

@@ -64,4 +64,4 @@ T_2: read(B,y); y:=y+200; write(y, B);
 
 **Bspiele für verschränkte Ausführungen:**
 -> diese bedeutet, dass mehrere Transaktionen gleichzeitig laufen, und ihre Befehle sich abwechseln (also ineinander verschränkt sind).
-![[Pasted image 20251025182814.png]]
+![[Pasted image 20251025182814.png]]![[Pasted image 20251026210136.png]]
