@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25da0aed6d95649f",
+        "id": "351ad23e00b7ce0c",
         "type": "tabs",
         "children": [
           {
-            "id": "5f9a7a3b9afc1dd3",
+            "id": "7feb4e441cf6d140",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,6 +33,7 @@
       {
         "id": "e4afbfda10a0246a",
         "type": "tabs",
+        "dimension": 66.22222222222223,
         "children": [
           {
             "id": "55297c3859f4c51e",
@@ -75,10 +76,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "ea47c2f13c409ca8",
+        "type": "tabs",
+        "dimension": 33.77777777777778,
+        "children": [
+          {
+            "id": "5f9a7a3b9afc1dd3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 390.5,
+    "collapsed": true
   },
   "right": {
     "id": "23a84abf1c8d379f",
@@ -87,6 +106,7 @@
       {
         "id": "62b588dca7e4c92b",
         "type": "tabs",
+        "dimension": 61.56609195402298,
         "children": [
           {
             "id": "e2185b78b6a751a2",
@@ -160,7 +180,15 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "4201707ac9df1421",
+        "type": "tabs",
+        "dimension": 38.43390804597701,
+        "children": [
           {
             "id": "49188eb446758209",
             "type": "leaf",
@@ -171,12 +199,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f9a7a3b9afc1dd3",
+  "active": "7feb4e441cf6d140",
   "lastOpenFiles": [
+    "2025-10-26.md",
+    "Uni/WiSe26/DB2/Folie 1.md",
     "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",
     "Untitled.canvas",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
