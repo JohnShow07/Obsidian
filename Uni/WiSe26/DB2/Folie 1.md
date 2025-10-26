@@ -75,3 +75,10 @@ T_2: read(B,y); y:=y+200; write(y, B);
 **Eine vollständige T** hat als letzten Schritt entweder Abbruch a oder Commit c: 
 $T = p_1...p_n a$   oder   $T = p_1...p_n c$ 
 
+**Eine Schedule** ist ein Präfix eines vollständigen Schedules
+**Eine vollständige Schedule** ist eine Folge von DB-Operationen.
+- alle OPs gehören zu vollständigen Transaktion
+- alle OPS dieser Ts treten im Schedule in derselben relativen Reihenfolge wie in der T auf.
+![[Pasted image 20251026215541.png]]
+
+Ein serieller Schedule s für T ist ein vollständiger Schedule in der folgenden Form: 
