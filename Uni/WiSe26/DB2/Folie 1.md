@@ -68,6 +68,10 @@ T_2: read(B,y); y:=y+200; write(y, B);
 ![[Pasted image 20251026210217.png]]
 -> Eine verschränkte Ausführung mehrerer Ts heißt **serialisierbar**, wenn ihr Effekt identisch zum Effekt einer (beliebig gewählten) seriellen Ausführung dieser Ts ist.
 
-**Das Read/Write-Modell:** Eine T besteht aus eine eindliche FOlge von Operationen(Schritten) $p_i$ der form $r(x_i)$ oder $w(x_i)$:
+**Das Read/Write-Modell:** Eine T besteht aus eine endliche Folge von Operationen(Schritten) $p_i$ der form $r(x_i)$ oder $w(x_i)$:
 
-</center> $T = p_1p_2p_3...p_n$ mit $p_i \in {r(x_i),w(x_i)}$ </center>
+- $T = p_1p_2p_3...p_n$ mit $p_i \in {r(x_i),w(x_i)}$ 
+
+**Eine vollständige T** hat als letzten Schritt entweder Abbruch a oder Commit c: 
+$T = p_1...p_n a$   oder   $T = p_1...p_n c$ 
+
