@@ -27,3 +27,17 @@
 
 ![[Pasted image 20251027134148.png]]
 
+## Management-Rollen
+(a) **Interpersonelle Rollen**
+-  Galionsfigur: Darstellung und Vertretung des Unternehmens als Symbolfigur oder Repräsentant
+- Vorgesetzter: Anleitung, Motivation, Auswahl und Beurteilung der Mitarbeiter
+- Vernetzer: Aufbau und Pflege eines Kontaktnetzes
+(b) **Informationsrollen**
+- Radarschirm: Sammlung und Aufnahme von Informationen über interne und externe Entwicklungen
+- Sender: Übermittlung und Interpretation von Informationen und handlungsleitenden Werten an die Mitarbeiter
+ - Sprecher: Information Externer und Vertretung des Unternehmens nach außen
+(c) **Entscheidungsrollen**
+- Innovator: Initiierung und Realisierung von Wandel in Unternehmen
+- Problemlöser: Beseitigung von Störungen und Konflikten
+- Ressourcenzuteiler: Verteilung von Zeit, Aufgaben und Kompetenzen, sowie finanziellen Ressourcen
+- Verhandlungsführer: Führen von Verhandlungen in Vertretung des Unternehmens oder der Abteilung
