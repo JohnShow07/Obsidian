@@ -228,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5,
-    "collapsed": true
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,6 +244,7 @@
   },
   "active": "46478071e156ace4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251027134148.png",
     "Kernfunktionen.md",
     "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
     "attachments/Pasted image 20251027133119.png",
