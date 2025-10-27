@@ -2,7 +2,7 @@
 
 ## 1.1 Begriff der Unternehmensführung
 **Unternehmensführung (Management):** gesamthafte Steuerung des Unternehmens. 
--> [[Kernfunktionen#Managementfunktionen]] wie Planung, Organisation, Personalmanagement, Personalführung, Controlling
+-> [[#Managementfunktionen | Kernfunktionen]] wie Planung, Organisation, Personalmanagement, Personalführung, Controlling
 -> Zwei zentrale Perspektiven:
 - *institutionelle Sicht* der Unternehmensführung(UF) (wer führt?)
 	- UF als eine Instanz, die das Unternehmen führt
@@ -18,3 +18,9 @@
 ![[Pasted image 20251027133119.png]]
 
 ## Managementfunktionen
+
+**Planung:** Nachdenken -> was soll erreicht werden und wie erreicht man da am besten
+**Organisation:** Strukturen, die die Planrealisierung gewährleisten, schaffen
+**Personalmanagement:** personalbezogener Ziele und Maßnahmen zur Zielrealisierung formulieren
+**Personalführung:** zielorientierte, wechselseitige Verhaltensbeeinflussung von Mitarbeitern zur Erreichung von Unternehmenszielen
+**Contrlling:** vergleicht die realisierten Ergebn
