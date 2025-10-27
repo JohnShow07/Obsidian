@@ -17,10 +17,13 @@
 
 ![[Pasted image 20251027133119.png]]
 
-## Managementfunktionen
+### Managementfunktionen
 
 **Planung:** Nachdenken -> was soll erreicht werden und wie erreicht man da am besten
 **Organisation:** Strukturen, die die Planrealisierung gewährleisten, schaffen
 **Personalmanagement:** personalbezogener Ziele und Maßnahmen zur Zielrealisierung formulieren
 **Personalführung:** zielorientierte, wechselseitige Verhaltensbeeinflussung von Mitarbeitern zur Erreichung von Unternehmenszielen
-**Contrlling:** vergleicht die realisierten Ergebn
+**Controlling:** vergleicht die realisierten Ergebnisse mit der Planung
+
+![[Pasted image 20251027134148.png]]
+
