@@ -10,4 +10,5 @@
 - *funktionelle Sicht* der UF (wodurch wird geführt?)
 	- UF als ziel-bezogenes Gestalten und Lenken des Unternehmens
 	- Fokus auf Aufgaben erforderlich zur erfolgreichen Steuerung
-	- 
+	- Management als Querschnittsfunktion -> steuert den Einsatz von Ressourcen und das Zusammenwirken con Sachfktionen: Einkauf, Produktion, Verkauf
+	- Management als komplexe Verknüpfungsaktivität, die den Leistung
