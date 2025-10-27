@@ -116,7 +116,7 @@
       {
         "id": "e4afbfda10a0246a",
         "type": "tabs",
-        "dimension": 66.22222222222223,
+        "dimension": 65.08524833209785,
         "children": [
           {
             "id": "55297c3859f4c51e",
@@ -163,7 +163,7 @@
       {
         "id": "ea47c2f13c409ca8",
         "type": "tabs",
-        "dimension": 33.77777777777778,
+        "dimension": 34.91475166790215,
         "children": [
           {
             "id": "5f9a7a3b9afc1dd3",
@@ -179,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 319.5
   },
   "right": {
     "id": "23a84abf1c8d379f",
@@ -285,7 +285,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 586.5
+    "width": 586.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,7 +301,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5f9a7a3b9afc1dd3",
+  "active": "7feb4e441cf6d140",
   "lastOpenFiles": [
     "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
