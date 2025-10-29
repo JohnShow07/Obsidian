@@ -13,7 +13,7 @@ Von Neumann:
 
 
 
-## 2.6 Appendix
+## 2.6 Appendix (nicht klausur relevant)
 
 ### Labels
 ### Data Types
