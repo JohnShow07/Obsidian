@@ -83,3 +83,4 @@ $T = p_1...p_n a$   oder   $T = p_1...p_n c$
 
 Ein serieller Schedule s für T ist ein vollständiger Schedule in der folgenden Form: 
 ![[Pasted image 20251026221603.png]]
+_> EIn Schedule ist korrekt, wenn Ergebnis der Ausführung des Schedules == dem Effekt eines (beli_
