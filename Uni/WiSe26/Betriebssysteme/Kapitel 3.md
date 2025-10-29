@@ -16,3 +16,5 @@ Warum noch C:
 - schnell
 - nützliche Flexibilität(wegen Zeigerarithmetik und Typumwandlungen)
 - Falls alles richtig, manuelle Speicherverwaltung schneller als automatische(wie bei Java)
+Unsichere C funktionen
+- ?????
