@@ -85,3 +85,9 @@ Ein serieller Schedule s für T ist ein vollständiger Schedule in der folgenden
 ![[Pasted image 20251026221603.png]]
 _> Ein Schedule ist korrekt, wenn das Ergebnis genauso ist, wie bei einer seriellen Ausführung der Ts._
 
+- Ein **Schedule** ist eine **Reihenfolge**, in der Befehle (read/write) von mehreren Transaktionen ausgeführt werden.
+    
+- Wenn das Ergebnis am Ende **so aussieht**, als hätte man **die Transaktionen nacheinander (seriell)** ausgeführt,  
+    → dann ist dieser Schedule **korrekt / serialisierbar**.
+
+Konflikte:
