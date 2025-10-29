@@ -281,17 +281,20 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "7feb4e441cf6d140",
   "lastOpenFiles": [
+    "Shortcuts/Shortcuts.md",
+    "Uni/WiSe26/DB2/Folie 1.md",
+    "Shortcuts",
     "Uni/WiSe26/Betriebssysteme/Kapitel 3.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
     "attachments/Pasted image 20251028144051.png",
     "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
-    "Uni/WiSe26/DB2/Folie 1.md",
     "conflict-files-obsidian-git.md",
     "attachments/Pasted image 20251025182814.png",
     "attachments/Pasted image 20251026205911.png",
