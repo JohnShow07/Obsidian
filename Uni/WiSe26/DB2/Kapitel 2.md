@@ -23,4 +23,5 @@ Bedeutung: $\sigma(R) : \sigma(E_1) \rightarrow \sigma(E_2)$
 ### Kardinalitäten
 - **Notation:** $R(E_1,....,E_i[min_i,max_j],....,E_n)$ 
 - Wertangabe * heißt **beliebig.**
+- $[0,*]$ ist **Standartannahme**
 - 
