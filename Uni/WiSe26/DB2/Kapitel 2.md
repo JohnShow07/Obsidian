@@ -24,4 +24,4 @@ Bedeutung: $\sigma(R) : \sigma(E_1) \rightarrow \sigma(E_2)$
 - **Notation:** $R(E_1,....,E_i[min_i,max_j],....,E_n)$ 
 - Wertangabe * heißt **beliebig.**
 - $[0,*]$ ist **Standartannahme**
-- 
+- $RE_1[0,1],E_2)$ beschreibt eine (partielle) funktionale Beziehung §R: E_1 \rightarrow E_2
