@@ -57,4 +57,4 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 | Primärschlüssel         | ein beim Datenbankentwurf ausgezeichneter<br>Schlüssel                                                  |
 | Fremdschlüssel          | Attributmenge, die in einer anderen Relation<br>Schlüssel ist                                           |
 | Fremdschlüsselbedingung | alle Attributwerte des Fremdschlüssels tauchen in der<br>anderen Relation als Werte des Schl¨ussels auf |
-### Tran
+### von ER-Diagramm ins Relationmodell
