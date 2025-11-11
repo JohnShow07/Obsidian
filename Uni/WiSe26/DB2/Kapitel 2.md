@@ -37,3 +37,8 @@ arbeitet_in(Mitarbeiter[0,1], Raum[0,3])
 verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 ```
 - Jedem Rechner genau ein Mitarbeiter
+
+## Das Relationenmodell
+
+![[Pasted image 20251111152752.png]]
+![[Pasted image 20251111152944.png]]
