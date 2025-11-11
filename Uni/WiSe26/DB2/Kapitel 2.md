@@ -5,4 +5,11 @@
 **Entity:** Objeklte, in drin Infos gespeichert werden
 **Relationships:** Beziehung zwischen Entitys
 **Attribut:** Eigenschaften von Entitys oder Relationships
-µ(E) $$
+$\mu(E)$ =  Menge der Möglichen Entities vom Typ E
+$\sigma(E)$ = Menge der aktuellen Entites vom Typ E ein einem Zustand $\sigma$
+![[Pasted image 20251111143239.png]]
+![[Pasted image 20251111143316.png]]
+![[Pasted image 20251111143333.png]]
+![[Pasted image 20251111143346.png]]
+### Funktionale Beziehungen
+$R
