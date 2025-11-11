@@ -25,4 +25,15 @@ Bedeutung: $\sigma(R) : \sigma(E_1) \rightarrow \sigma(E_2)$
 - Wertangabe * heißt **beliebig.**
 - $[0,*]$ ist **Standartannahme**
 - $RE_1[0,1],E_2)$ beschreibt eine (partielle) funktionale Beziehung $R: E_1 \rightarrow E_2$ 
-	- Da jede 
+	- Da jede Instanz aus $E_1$ maximal einer Instanz aus $E_2$ zugeordnet ist.
+- $RE_1[1,1],E_2)$ beschreibt eine totale funktionale Beziehung
+#### Beispiele
+```
+arbeitet_in(Mitarbeiter[0,1], Raum[0,3])
+```
+- Jedem Mitarbeiter ein Raum, aber einige Mitarbeiter kein Raum
+- Pro Zimmer max 3 Mitarbeiter
+```
+verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
+```
+- Jedem Rechner genau ein Mitarbeiter
