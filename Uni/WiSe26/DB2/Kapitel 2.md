@@ -42,3 +42,19 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 
 ![[Pasted image 20251111152752.png]]
 ![[Pasted image 20251111152944.png]]
+
+| **Begriff**             | **Informale Bedeutung**                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| Attribut                | Spalte einer Tabelle                                                                                    |
+| Wertebereich            | mögliche Werte eines Attributs (auch Domäne)                                                            |
+| Attributwert            | Element eines Wertebereichs                                                                             |
+| Relationenschema        | Menge von Attributen                                                                                    |
+| Relation                | Menge von Zeilen einer Tabelle                                                                          |
+| Tupel                   | Zeile einer Tabelle                                                                                     |
+| Datenbankschema         | Menge von Relationenschemata                                                                            |
+| Datenbank               | Menge von Relationen (Basisrelationen)                                                                  |
+| Schlüssel               | minimale Menge von Attributen, deren Werte ein Tu-<br>pel einer Tabelle eindeutig identifizieren        |
+| Primärschlüssel         | ein beim Datenbankentwurf ausgezeichneter<br>Schlüssel                                                  |
+| Fremdschlüssel          | Attributmenge, die in einer anderen Relation<br>Schlüssel ist                                           |
+| Fremdschlüsselbedingung | alle Attributwerte des Fremdschlüssels tauchen in der<br>anderen Relation als Werte des Schl¨ussels auf |
+### Tran
