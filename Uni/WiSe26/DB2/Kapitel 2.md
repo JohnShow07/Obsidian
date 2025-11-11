@@ -12,4 +12,9 @@ $\sigma(E)$ = Menge der aktuellen Entites vom Typ E ein einem Zustand $\sigma$
 ![[Pasted image 20251111143333.png]]
 ![[Pasted image 20251111143346.png]]
 ### Funktionale Beziehungen
-$R
+Textuell: $R: E_1 \rightarrow E_2$ 
+Graphisch: 
+![[Pasted image 20251111143638.png]]
+Bedeutung: $\sigma(R) : \sigma(E_1) \rightarrow \sigma(E_2)$ 
+
+**Schlüsselattribute:** spezielle Attribute, wird durch Unterstreichen markiert
