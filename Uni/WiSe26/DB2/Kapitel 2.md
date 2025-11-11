@@ -22,5 +22,5 @@ Bedeutung: $\sigma(R) : \sigma(E_1) \rightarrow \sigma(E_2)$
 ![[Pasted image 20251111144725.png]]
 ### Kardinalitäten
 - **Notation:** $R(E_1,....,E_i[min_i,max_j],....,E_n)$ 
-- Ertangabe * heißt **beliebig.**
+- Wertangabe * heißt **beliebig.**
 - 
