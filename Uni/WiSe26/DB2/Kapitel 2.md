@@ -5,3 +5,4 @@
 **Entity:** Objeklte, in drin Infos gespeichert werden
 **Relationships:** Beziehung zwischen Entitys
 **Attribut:** Eigenschaften von Entitys oder Relationships
+µ(E) $$
