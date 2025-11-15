@@ -71,3 +71,5 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten), aber **nur EIN Primärschlüssel** wird gewählt.
 
 ### von ER-Diagramm ins Relationmodell
+
+**kapa**
