@@ -68,7 +68,6 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - **identifizierende Attributmenge:** Eine Tabelle muss etwas haben, womit man eden Datensatz eindeutig unterscheiden kann.
 - Wenn du **zwei Datensätze hast, die nicht identisch sind**, müssen sie sich **mindestens in einem Attribut** aus dieser Menge unterscheiden.
 - Der Schlüssel muss eindeutig sein. Keine zwei Zeilen dürfen denselben Schlüssel haben.
-- Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten),  
-aber **nur EIN Primärschlüssel** wird gewählt.
+- Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten), aber **nur EIN Primärschlüssel** wird gewählt.
 
 ### von ER-Diagramm ins Relationmodell
