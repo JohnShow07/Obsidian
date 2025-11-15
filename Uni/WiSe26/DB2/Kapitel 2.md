@@ -72,4 +72,9 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 
 ### von ER-Diagramm ins Relationmodell
 
-**kapa**
+**kapazitätserhöhend:** Die Tabelle mehr Tupel erzeugt als sinnvoll möglich
+![[Pasted image 20251115174059.png]]
+
+**kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre
+![[Pasted image 20251115174253.png]]
+
