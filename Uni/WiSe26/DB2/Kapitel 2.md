@@ -7,6 +7,8 @@
 **Attribut:** Eigenschaften von Entitys oder Relationships
 $\mu(E)$ =  Menge der Möglichen Entities vom Typ E
 $\sigma(E)$ = Menge der aktuellen Entites vom Typ E ein einem Zustand $\sigma$
+**Semantik einer Beziehung:** 
+**Semantik einer Attributdeklaration:** $\sigma(A) : \sigma(E) \rightarrow \sigma(D)$ 
 ![[Pasted image 20251111143239.png]]
 ![[Pasted image 20251111143316.png]]
 ![[Pasted image 20251111143333.png]]
