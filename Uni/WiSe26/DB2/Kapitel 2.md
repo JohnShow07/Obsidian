@@ -59,12 +59,16 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 | Tupel                   | Zeile einer Tabelle                                                                                     |
 | Datenbankschema         | Menge von Relationenschemata                                                                            |
 | Datenbank               | Menge von Relationen (Basisrelationen)                                                                  |
-| Schlüssel               | minimale Menge von Attributen, deren Werte ein Tu-<br>pel einer Tabelle eindeutig identifizieren        |
+| Schlüssel               | minimale Menge von Attributen, deren Werte ein Tupel einer Tabelle eindeutig identifizieren             |
 | Primärschlüssel         | ein beim Datenbankentwurf ausgezeichneter<br>Schlüssel                                                  |
 | Fremdschlüssel          | Attributmenge, die in einer anderen Relation<br>Schlüssel ist                                           |
 | Fremdschlüsselbedingung | alle Attributwerte des Fremdschlüssels tauchen in der<br>anderen Relation als Werte des Schl¨ussels auf |
 ### Integritätsbedingungen
 
-
+- **identifizierende Attributmenge:** Eine Tabelle muss etwas haben, womit man eden Datensatz eindeutig unterscheiden kann.
+- Wenn du **zwei Datensätze hast, die nicht identisch sind**, müssen sie sich **mindestens in einem Attribut** aus dieser Menge unterscheiden.
+- Der Schlüssel muss eindeutig sein. Keine zwei Zeilen dürfen denselben Schlüssel haben.
+- Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten),  
+aber **nur EIN Primärschlüssel** wird gewählt.
 
 ### von ER-Diagramm ins Relationmodell
