@@ -71,10 +71,10 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten), aber **nur EIN Primärschlüssel** wird gewählt.
 
 ### von ER-Diagramm ins Relationmodell
-
-**kapazitätserhöhend:** Die Tabelle mehr Tupel erzeugt als sinnvoll möglich
+- *kapazität:* Anzahl der möglichen Tupel, die durch die Kardinalitäten des ER
+**kapazitätserhöhend:** Die Tabelle mehr Tupel erzeugt als sinnvoll möglich (typisch bei n:m oder 1:n)
 ![[Pasted image 20251115174059.png]]
 
-**kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre
+**kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre (typisch bei 1.1)
 ![[Pasted image 20251115174253.png]]
 
