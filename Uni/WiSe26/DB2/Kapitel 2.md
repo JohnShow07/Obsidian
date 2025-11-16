@@ -78,4 +78,10 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - **Kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre (typisch bei 1.1)
 ![[Pasted image 20251115174253.png]]
 
-Regeln
+##### Regeln bei der Abbildung auf das relationale Modell:
+- Entity-Typen und Beziehungstypen → Relationenschemata
+	- Attribute → Attribute des Relationenschemas
+	- Schlüssel werden übernommen
+- Kardinalitäten der Beziehungen → Wahl der Schlüssel
+- Relationenschemata von Entity- und Beziehungstypen können eventuell miteinander verschmolzen werden
+- Einführung diverser Fremdschlüsselbedingungen ![[Pasted image 20251116130414.png]]
