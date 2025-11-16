@@ -24,7 +24,7 @@ Das heißt:
 
 **Schlüsselattribute:** spezielle Attribute, wird durch Unterstreichen markiert
 ### Die IST-Beziehung 
-Jede Entity A ist genau einer Entity B zugeordnet, nicht andersrum
+>Jede Entity A ist genau einer Entity B zugeordnet, nicht andersrum
 ![[Pasted image 20251111144725.png]]
 ### Kardinalitäten
 - **Notation:** $R(E_1,....,E_i[min_i,max_j],....,E_n)$ 
@@ -71,10 +71,11 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - Eine Tabelle kann mehrere mögliche Schlüssel haben (Kandidaten), aber **nur EIN Primärschlüssel** wird gewählt.
 
 ### von ER-Diagramm ins Relationmodell
-- *kapazität:* Anzahl der möglichen Tupel, die durch die Kardinalitäten des ER
-**kapazitätserhöhend:** Die Tabelle mehr Tupel erzeugt als sinnvoll möglich (typisch bei n:m oder 1:n)
+- *kapazität:* Anzahl der möglichen Tupel, die durch die Kardinalitäten des ER-Modells erlaubt sind. 
+- **Kapazitätserhaltend:** Relation erlaubt exakt die Tupel, die laut ER-Modell zulässig sind.
+- **Kapazitätserhöhend:** Die Tabelle mehr Tupel erzeugt als sinnvoll möglich (typisch bei n:m oder 1:n)
 ![[Pasted image 20251115174059.png]]
-
-**kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre (typisch bei 1.1)
+- **Kapazitätsvermindernd:** Die Tabelle weniger Tupel abbildet als erlaubt wäre (typisch bei 1.1)
 ![[Pasted image 20251115174253.png]]
 
+Regeln
