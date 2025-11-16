@@ -86,23 +86,23 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - Relationenschemata von Entity- und Beziehungstypen können eventuell miteinander verschmolzen werden
 - Einführung diverser Fremdschlüsselbedingungen ![[Pasted image 20251116130414.png]]
 ##### Abbildung von Beziehungstypen
-Ein Beziehungstyp wird zu einem Relationenschema mit:
-- allen Attributen des Beziehungstyps
-- den Primärschlüsseln der beteiligten Entity-Typen
-Schlüsselauswahl (für binäre Beziehungen):
-m:n-Beziehung:
-- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
-- Zusammen bilden sie den Primärschlüssel der Relation.
-1:n-Beziehung:
-- Der Primärschlüssel der n-Seite wird Primärschlüssel der Relation.
-- (Bei funktionaler Notation: die Seite ohne Pfeilspitze.)
-
-1:1-Beziehung:
-
-- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
-    
-- Einer davon wird als Primärschlüssel ausgewählt.
-    
-
+- Ein Beziehungstyp wird zu einem Relationenschema mit:
+	- allen Attributen des Beziehungstyps
+	- den Primärschlüsseln der beteiligten Entity-Typen
+**Schlüsselauswahl (für binäre Beziehungen):**
+- m:n-Beziehung:
+	- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
+	- Zusammen bilden sie den Primärschlüssel der Relation.
+- 1:n-Beziehung:
+	- Der Primärschlüssel der n-Seite wird Primärschlüssel der Relation.
+	- (Bei funktionaler Notation: die Seite ohne Pfeilspitze.)
+- 1:1-Beziehung:
+	- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
+	- Einer davon wird als Primärschlüssel ausgewählt.
 Hinweis:  
-Diese Regeln gelten auch bei optionalen Beziehungen ([0, ]).
+Diese Regeln gelten auch bei optionalen **Beziehungen ([0, ]).**
+**bei zwingenden Beziehungen ([1, ]):**
+- 1:n-Beziehung:
+	- Das Entity-Relationenschema der n-Seite kann in das Relationenschema der Beziehung integriert werden.
+- 1:1-Beziehung:
+	- Beide Entity-Relationenschemata können in das Relationenschema der Beziehung integriert werden.
