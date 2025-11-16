@@ -85,3 +85,24 @@ verantwortlich(Mitarbeiter[0,*], Rechner[1,1])
 - Kardinalitäten der Beziehungen → Wahl der Schlüssel
 - Relationenschemata von Entity- und Beziehungstypen können eventuell miteinander verschmolzen werden
 - Einführung diverser Fremdschlüsselbedingungen ![[Pasted image 20251116130414.png]]
+##### Abbildung von Beziehungstypen
+Ein Beziehungstyp wird zu einem Relationenschema mit:
+- allen Attributen des Beziehungstyps
+- den Primärschlüsseln der beteiligten Entity-Typen
+Schlüsselauswahl (für binäre Beziehungen):
+m:n-Beziehung:
+- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
+- Zusammen bilden sie den Primärschlüssel der Relation.
+1:n-Beziehung:
+- Der Primärschlüssel der n-Seite wird Primärschlüssel der Relation.
+- (Bei funktionaler Notation: die Seite ohne Pfeilspitze.)
+
+1:1-Beziehung:
+
+- Beide Primärschlüssel der Entity-Typen werden Schlüsselattribute.
+    
+- Einer davon wird als Primärschlüssel ausgewählt.
+    
+
+Hinweis:  
+Diese Regeln gelten auch bei optionalen Beziehungen ([0, ]).
