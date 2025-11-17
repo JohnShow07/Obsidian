@@ -20,7 +20,7 @@
 - alter table (domain in SQL-92)
 - drop table (domain in SQL-92)
 > Interne Ebene (Physische Ebene: physische Organisation der Daten)
-- [[#^2178ad|create index]]create index
+- [[#^2178ad|create index]]
 - alter index
 - drop index
 

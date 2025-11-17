@@ -48,11 +48,13 @@ create table Product(
 	name varchar(30) not null,
 	internal_name char(200),
 	price decimal(6,2) check(price >= 50)
-)
+);
 ```
 
 ![[Pasted image 20251117183724.png]]
 
 ```sql
-create index 
+ insert into Product(product_id, internal_name, price) values(100, 'Ram2000', 100,20);
 ```
+![[Pasted image 20251117184507.png]]
+
