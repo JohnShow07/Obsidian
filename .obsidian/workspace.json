@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -217,6 +218,8 @@
   },
   "active": "2a90a87d8dded75c",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251117164646.png",
+    "attachments/Pasted image 20251117164614.png",
     "Uni/WiSe26/DB2/Kapitel 1.md",
     "Uni/WiSe26/DB2/Kapitel 2.md",
     "Uni/WiSe26/DB2/Übungstestat 1.md",
@@ -232,7 +235,6 @@
     "attachments/Pasted image 20251111144725.png",
     "attachments/Pasted image 20251111143638.png",
     "attachments/Pasted image 20251111143346.png",
-    "attachments/Pasted image 20251111143333.png",
     "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
     "ToDO",
