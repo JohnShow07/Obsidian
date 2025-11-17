@@ -323,3 +323,9 @@ create table Kunden (
   
 -- Verwendung: Für Attribute, Parameter, Variablen und Tabellen 
 ```
+>Subtyping
+- Def. von Untertypen als Erweiterung existierender Datentypen (UDTs)
+```sql
+-- Syntax
+
+```
