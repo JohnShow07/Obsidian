@@ -342,4 +342,21 @@ create type Kunde under Person as (...) not final
 - SQL-Funktionen/Prozeduren, die UDT zugeordnet sind
 - Besonderheiten:
 	- impliziter self-Parameter
+		- SELF entspricht this in Java oder C++
+		- Methoden können auf die Attribute der Instanz zugreifen
 	- getrennte Spezifikation 
+		- Erst wird die Methode deklarieren, später definieren.
+
+```sql
+-- Syntax
+create type Kunde as (
+	...
+) not final
+method gesamt bestellsumme() returns decimal(9,2)
+
+create method gesamt bestellsumme() for Kunde
+begin
+	...
+end
+```
+
