@@ -334,6 +334,11 @@ create table Kunden (
 	untertyp under supertyp
 	
 -- Beispiel
-create type Perton as (...) not final
-create type Kunde under Peron as (...) not final
+create type Person as (...) not final
+create type Kunde under Person as (...) not final
 ```
+
+>Methoden
+- SQL-Funktionen/Prozeduren, die UDT zugeordnet sind
+- Besonderheiten:
+	- 
