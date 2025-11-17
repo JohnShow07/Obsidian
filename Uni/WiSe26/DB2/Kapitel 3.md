@@ -189,7 +189,8 @@ drop spaltenname [restrict | cascade]
 	- cascade: Abhängige Objekte werden mitgelöscht
 
 > `drop table`
-- ldjfk
+- restrict und cascade analog zum drop bei Attributen 
+	- "analog" bedeutet hier: genauso funktionierend wie bei Attributen
 ```sql
 drop table basisrelationenname
 	{ restrict | cascade }
@@ -198,11 +199,12 @@ drop table basisrelationenname
 > `create index`
 - Syntax SQL-89: 
 ```sql
-	create [unique] index indexname
-	on basisrelationenname (
-	spaltenname 1 ordnung 1,
-	...,
-	spaltenname k ordnung k
+	create [unique] index indexname on tabelle ( -- unique bedeutet: Keine zwei Zeilen dürfen denselben Wert in diesen Spalten haben
+	    spalte1 ordnung,
+	    spalte2 ordnung,
+    ...
+)
+
 )
 ```
 Beispiel:
