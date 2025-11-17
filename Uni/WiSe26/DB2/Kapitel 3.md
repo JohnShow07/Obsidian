@@ -250,4 +250,10 @@ create table Proffesoren(
 	Foto blob(100K),
 );
 ```
-- kein Primär-/Fremdschlü
+- kein Primär-/Fremdschlüssel, keine Gruppierung/Sortierung
+
+>Kollektionsdatentypen (array)
+- Datentypen zur Speicherung mehrerer Werte für ein Attribut
+- array-Typkonstruktor
+	- Elementdatentyp
+	- max. Kardinalität
