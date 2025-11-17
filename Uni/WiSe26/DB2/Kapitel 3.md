@@ -176,7 +176,7 @@ add Budget decimal(8,2) default 10000
 	check (Budget > Anzahl Planstellen ∗ 1000)
 ```
 
-> alter- und drop-Klauseln für Attribute
+> `alter`- und `drop`-Klauseln für Attribute
 - Änderung eines Default-Werts:
 ```sql
 alter Spaltenname default_änderung -- nur Änderung von default, nicht von der Datentyp
