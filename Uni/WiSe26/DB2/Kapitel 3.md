@@ -119,7 +119,7 @@ create table Mitarbeiter (
 create domain Gebiete varchar(20)
 	default ’Informatik’ 
 	check (
-		value in ( ’Informatik’, ’Mathematik’,’Physik’, ’Chemie’, ’Biologie’) )
+		value in ( ’Informatik’, ’Mathematik’, ’Physik’, ’Chemie’, ’Biologie’) )
 	-- Domain "Gebiete" darf nur diese 5 Werte annehmen, alles andere verboten.
 ```
 
@@ -134,3 +134,23 @@ create table Vorlesungen (
 )
 ```
 
+```sql
+CREATE TABLE BuchVersionen (
+    ISBN      CHAR(10),
+    Auflage   SMALLINT       CHECK (Auflage > 0),
+    Jahr      INTEGER        CHECK (Jahr BETWEEN 1800 AND 2020),
+    Seiten    INTEGER        CHECK (Seiten > 0),
+    Preis     DECIMAL(8,2)   CHECK (Preis <= 250),
+    PRIMARY KEY (ISBN, Auflage),
+    FOREIGN KEY (ISBN) REFERENCES Bücher(ISBN),
+    CHECK (
+        (SELECT SUM(Preis) FROM BuchVersionen)
+        <
+        (SELECT SUM(Budget) FROM Lehrstühle)
+    )
+);
+```
+
+### `alter` und `drop table`
+
+>SQL-
