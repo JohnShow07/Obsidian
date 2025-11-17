@@ -338,7 +338,7 @@ create type Person as (...) not final
 create type Kunde under Person as (...) not final
 ```
 
->Methoden
+>Strukturierte Typen: Methoden
 - SQL-Funktionen/Prozeduren, die UDT zugeordnet sind
 - Besonderheiten:
 	- impliziter self-Parameter
@@ -360,3 +360,12 @@ begin
 end
 ```
 
+>Strukturierte Typen für Tabellen
+- Def. von Tabellen auf Basis strukturierter Typen  _> Objektrelation
+	- Attribute werden Spalten
+	- zusätzliche Spalte für OID(benötigt für REF-Typen)
+
+```sql
+create table Kunden for Kunde(
+	ref is oid uder generated) -- Kunde ist Tabellentyp, Adresse ist Spaltentyp
+```
