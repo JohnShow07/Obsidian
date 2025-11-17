@@ -272,8 +272,15 @@ create table Bücher(
 ```
 >Anonyme ROW-Typen
 - Typkonstruktor für strukturierte Attribute
-- anonym -> kein *expliziter* Typname
+- anonym -> kein *expliziter* Typname, nicht wiederverwendbar
+- Zweck: Zusammengefasste Attribute wie Adresse, Koordinaten, Zeiträume
 ```sql
 -- Syntax
-	row (fname, ftyp_1, ...., fname)
+	row (fname_1, ftyp_1, ...., fname_n, ftyp_n)
+	
+-- Beispiel
+create table Kunden (
+	name varchar(50),
+	adresse row (strasse var(30), plz char(5), ort varchar(30))
+);
 ```
