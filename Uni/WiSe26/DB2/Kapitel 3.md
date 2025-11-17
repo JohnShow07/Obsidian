@@ -153,4 +153,21 @@ CREATE TABLE BuchVersionen (
 
 ### `alter` und `drop table`
 
->SQL-
+>Syntax in SQL-89
+```sql
+alter table basisrelationenname
+	add spaltenname wertebereich
+```
+
+```sql
+alter table Lehrstühle
+	add Budget decimal(8,2)
+```
+
+**Wirkung:**
+- Änderung des Relationenschematas
+- Erweiterung der existierenden Basisrelation um ein Attribut
+
+>Syntax in SQL-92
+- Angabe von Default-Werten und check-Klauseln erlaubt
+````
