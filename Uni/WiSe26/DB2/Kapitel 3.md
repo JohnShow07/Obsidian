@@ -112,3 +112,5 @@ create table Mitarbeiter (
 	z. B. Default „Informatik“, wenn kein anderer Fachbereich angegeben wird.
 ✔ Datenbanklogik *wiederverwendbar* zu machen
 	Man definiert es einmal und benutzt es überall.
+
+>**Integritätsbedingungen mit** `check`
