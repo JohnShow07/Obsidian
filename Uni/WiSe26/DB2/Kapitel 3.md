@@ -1,4 +1,4 @@
-#DB2 #Kapitel3
+#DB2 #DB2Kapitel3
 
 # Datenbankdefinitionssprachen
 

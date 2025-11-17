@@ -1,4 +1,4 @@
-#DB2 #Kapitel1
+#DB2 #DB2Kapitel1
 ## Section 1: Transaktionen
 
 -> Transaktion ist eine Folge von Operationen, die die DB von konsistenten zum konsistenten, veränderten Zustand überführt. (Dabei ACID eingehalten)

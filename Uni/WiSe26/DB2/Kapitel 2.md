@@ -1,4 +1,4 @@
-#DB2 #Kapitel2
+#DB2 #DB2Kapitel2 
 # Datenbanken: eine Einführung - Wiederholung
 ## Entity- Relationship-Modell
 

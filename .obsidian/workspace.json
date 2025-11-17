@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c747b8a735361241",
+        "id": "0b37c31c35f17bf8",
         "type": "tabs",
         "children": [
           {
-            "id": "165fd0ac078286c2",
+            "id": "2a90a87d8dded75c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 3.md",
+                "file": "Uni/WiSe26/DB2/Übungstestat 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapitel 3"
-            }
-          },
-          {
-            "id": "232336cda7fcf26b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kapitel 2"
+              "title": "Übungstestat 1"
             }
           }
         ]
@@ -108,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -230,13 +215,15 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "165fd0ac078286c2",
+  "active": "2a90a87d8dded75c",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251117090700.png",
-    "Uni/WiSe26/DB2/Kapitel 3.md",
     "Uni/WiSe26/DB2/Kapitel 1.md",
-    "Uni/WiSe26/DB2/Untitled",
     "Uni/WiSe26/DB2/Kapitel 2.md",
+    "Uni/WiSe26/DB2/Übungstestat 1.md",
+    "Uni/WiSe26/DB2/Kapitel 3.md",
+    "Uni/WiSe26/DB2/Untitled.canvas",
+    "attachments/Pasted image 20251117090700.png",
+    "Uni/WiSe26/DB2/Untitled",
     "attachments/Pasted image 20251116130414.png",
     "attachments/Pasted image 20251115174253.png",
     "attachments/Pasted image 20251115174059.png",
@@ -246,7 +233,6 @@
     "attachments/Pasted image 20251111143638.png",
     "attachments/Pasted image 20251111143346.png",
     "attachments/Pasted image 20251111143333.png",
-    "attachments/Pasted image 20251111143316.png",
     "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
     "ToDO",
