@@ -323,6 +323,9 @@ create table Kunden (
   
 -- Verwendung: Für Attribute, Parameter, Variablen und Tabellen 
 ```
+
+^7a4f5e
+
 >Subtyping
 - Def. von Untertypen als Erweiterung existierender Datentypen (UDTs)
 - keine Mehrfachvererbung zulässig
@@ -367,5 +370,6 @@ end
 
 ```sql
 create table Kunden for Kunde(
-	ref is oid uder generated) -- Kunde ist Tabellentyp, Adresse ist Spaltentyp
+	ref is oid uder generated) 
 ```
+-- Kunde ist Tabellentyp, [[#^7a4f5e|Adresse]] ist Spaltentyp
