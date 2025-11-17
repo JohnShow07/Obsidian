@@ -12,10 +12,11 @@
 
 ## SQL als Def. Sprache
 
-> externe Ebene
+> externe Ebene (View-Ebene: Welche Daten ein Nutzer sieht)
 - create view
 - drop view
-> konzeptionelle Ebene
+> konzeptionelle Ebene (Logische Ebene: Wie ist die Datenbank logisch aufgebaut?)
 - create table
 - alter table
 - drop table
+- 
