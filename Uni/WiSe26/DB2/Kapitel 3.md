@@ -92,5 +92,23 @@ create table Vorlesungen (
 	SWS smallint,
 	Semester smallint,
 	Studiengang Gebiete ) -- nutzt den selbst definierten Domäne "Gebiete"
-	-- Wenn kein Wert eingetragen wird __
+	-- Wenn kein Wert eingetragen wird -> automatisch "Informatik"
 ```
+
+```sql
+create table Mitarbeiter (
+	PANr integer not null,
+	AngNr char(10) not null,
+	Fachbereich Gebiete, -- genauso hier, Typ "Gebiete". nichts eingetragen -> "Informatik"
+	Gehalt decimal(10,2),
+	Raum integer,
+	Einstellung date )
+```
+
+**Vorteile**:
+✔ *Konsistente* Datentypen zu garantieren
+	z. B. überall, wo ein Studiengang/Fachbereich vorkommt, gelten dieselben Regeln.
+✔ *Standardwerte* festzulegen
+	z. B. Default „Informatik“, wenn kein anderer Fachbereich angegeben wird.
+✔ Datenbanklogik *wiederverwendbar* zu machen
+	Man definiert es einmal und benutzt es überall.
