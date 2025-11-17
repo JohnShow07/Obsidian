@@ -58,3 +58,20 @@ create table Product(
 ```
 ![[Pasted image 20251117184507.png]]
 
+```sql
+ select name, internal_name from Product where preis < 99,20;
+```
+
+![[Pasted image 20251117184637.png]]
+
+```sql
+ alter table Product 
+ add received_on date, default '2000-01-01'
+```
+
+![[Pasted image 20251117184938.png]]
+
+```sql
+ alter table Product 
+ add purchased_price decimal(6, 2), default '2000-01-01'
+```
