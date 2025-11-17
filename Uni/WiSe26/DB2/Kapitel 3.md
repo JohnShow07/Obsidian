@@ -290,4 +290,36 @@ create table Kunden (
 	- *Distinct-Typen:* Umbenennung eines Basistyps, um Strenge Typprüfung zu erzwingen
 	- *Strukturierte Typen:* Zusammengesetzte Datentypen mit mehreren Feldern (ähnlich wie bei row, hier aber -> benannt und wiederverwendbar)
 >Distinct-Typen
+- Umbenennung eines vorhandenen Typs
+- erzeugt strenge Typ-Inkompatibilität
+- Nur für Attribute, Parameter, Variablen
+```sql
+-- Beispiel
+  create type meter as integer final;
+  create type quadratmeter as integer final;
 
+-- Vergleich/Zuweisung zwischen verschiedenen Distinct-Typen nicht erlaubt
+
+--Beispiel Tabelle:
+  create table Grundstück (
+      laenge meter,
+      breite meter,
+      flaeche quadratmeter
+  );
+```
+>Strukturierte Typen
+- Definition eines komplexen Typs mit mehreren Feldern
+- Wiederverwendbar wie eine Klasse
+```sql
+-- Beispiel
+  create type Adresse as (strasse varchar(30),plz char(5),ort varchar(30)) final;
+
+-- Beispiel2
+  create type Kunde as (
+      knr int,
+      name varchar(30),
+      lieferadresse Adresse
+  ) final;
+  
+-- Verwendung: Für Attribute, Parameter, Variablen und Tabellen 
+```
