@@ -196,7 +196,7 @@ drop table basisrelationenname
 	{ restrict | cascade }
 ```
 
-> `create index`
+> `create index` ???
 - Syntax SQL-89: 
 ```sql
 	create [unique] index indexname on tabelle ( -- unique bedeutet: Keine zwei Zeilen dürfen denselben Wert in diesen Spalten haben
