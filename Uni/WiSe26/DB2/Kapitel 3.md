@@ -224,3 +224,5 @@ create unique index Buchindex
 
 ## Objektrelationale Konzepte
 
+### SQL: 1999
+- vielfältige neue Konzepte 
