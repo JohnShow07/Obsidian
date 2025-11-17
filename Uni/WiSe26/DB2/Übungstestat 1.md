@@ -15,4 +15,10 @@ Antwort:
 ![[Pasted image 20251117171546.png]]
 Antwort:
 	Bühne(<u>BühnenNr</u>; Anzahl Plätze),
-	Aufführung(<u>A.ID</u>, Uhrzeit, Datum)
+	Aufführung(<u>A.ID</u>, Uhrzeit, Datum),
+	Theaterstück(<u>T.ID</u>, Titel, Genre),
+	Mitarbeiter:in(<u>M.ID</u>, Name, Gehalt),
+	Schauspieler:in(<span style='text-decoration: overline;'><u>M.ID</u></span>, Größe),
+	Regisseur:in(<u><span style='text-decoration: overline;'>M.ID</span></u>, Ausbildung),
+	ist auf(<u><span style='text-decoration: overline;'>A.ID</span></u>, <span style='text-decoration: overline;'>BühnenNr</span>), 
+	gehört zu()

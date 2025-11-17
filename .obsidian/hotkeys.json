@@ -7,5 +7,14 @@
       ],
       "key": "U"
     }
+  ],
+  "templater-obsidian:Templates/Überstreichen.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": ";"
+    }
   ]
 }
