@@ -20,7 +20,7 @@
 - alter table (domain in SQL-92)
 - drop table (domain in SQL-92)
 > Interne Ebene (Physische Ebene: physische Organisation der Daten)
-- create index
+- [[#^2178ad|create index]]create index
 - alter index
 - drop index
 
@@ -197,6 +197,9 @@ drop table basisrelationenname
 ```
 
 > `create index` ???
+
+^2178ad
+
 - Syntax SQL-89: 
 ```sql
 	create [unique] index indexname on tabelle ( -- unique bedeutet: Keine zwei Zeilen dürfen denselben Wert in diesen Spalten haben

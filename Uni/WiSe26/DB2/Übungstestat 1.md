@@ -44,6 +44,15 @@ FWFWF
 ```sql
 -- Antwort:
 create table Product(
-	name varchar()
+	prodict_id INT primary key,
+	name varchar(30) not null,
+	internal_name char(200),
+	price decimal(6,2) check(price >= 50)
 )
+```
+
+![[Pasted image 20251117183724.png]]
+
+```sql
+create index 
 ```
