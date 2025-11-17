@@ -1,13 +1,6 @@
 {
-  "templater-obsidian:replace-in-file-templater": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "U"
-    }
-  ],
-  "templater-obsidian:create-Templates/Untersctreichen.md": [
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:Templates/Untersctreichen.md": [
     {
       "modifiers": [
         "Mod"

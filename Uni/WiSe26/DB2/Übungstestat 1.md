@@ -15,4 +15,4 @@ Antwort:
 ![[Pasted image 20251117171546.png]]
 Antwort:
 	Bühne(<u>BühnenNr</u>; Anzahl Plätze),
-	Aufführung()
+	Aufführung(<u>A.ID</u>, Uhrzeit, Datum)
