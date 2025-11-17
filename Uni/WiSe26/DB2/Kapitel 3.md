@@ -75,3 +75,12 @@ create table B¨ucher (
 )
 ```
 
+#### Erweiterungen in SQL-92
+- `default`- Klausel: *Defaultwerte für Attribute
+- ``create domain``-Anweisung: *benutzerdefinierte Wertebereiche*
+- `check`-Klausel: weitere *lokale Integritätsbedingungen* innerhalb der zu definierenden Wertebereiche, Attribute und Relationenschemata
+
+```sql
+create domain Gebiete varchar(20)
+	default ’Informatik’
+```
