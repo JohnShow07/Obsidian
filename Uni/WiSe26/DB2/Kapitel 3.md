@@ -325,7 +325,15 @@ create table Kunden (
 ```
 >Subtyping
 - Def. von Untertypen als Erweiterung existierender Datentypen (UDTs)
+- keine Mehrfachvererbung zulässig
+- bei Typdefinition:
+	- `not final:`Subtyping zulässig
+	- `final:` keine Bildung von Untertypen
 ```sql
 -- Syntax
-
+	untertyp under supertyp
+	
+-- Beispiel
+create type Perton as (...) not final
+create type Kunde under Peron as (...) not final
 ```
