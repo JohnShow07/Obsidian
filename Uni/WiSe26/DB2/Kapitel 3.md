@@ -375,52 +375,31 @@ create table Kunden for Kunde(
 -- [[#^7a4f5e|Kunde]] ist Tabellentyp, [[#^7a4f5e|Adresse]] ist Spaltentyp
 
 >Objektidentifikatoren (OID)
+- Eindeutige, unveränderliche IDs für Tupel
+- Arten: user generated, system generated, aus Attributen abgeleitet
 
--  Eindeutige, unveränderliche IDs für Tupel in Objektrelationen
-- Varianten:
-  - ref is user generated
-    → vom Nutzer vorgegebene OID
-  ref is system generated
-    → vom System erzeugte OID
-  ref from (Attributliste)
-    → OID wird aus anderen Attributen abgeleitet (z. B. Primärschlüssel)
+>REF-Typ
+- Referenzen auf Objekte (Instanzen strukturierter Typen)
+```sql
+-- Syntax: 
+	ref(Typ) [scope Tabelle]
+-- scope → legt fest, auf welche Tabelle die Referenz zeigen darf
 
-REF-Typ
-- Typ für Referenzen auf Instanzen eines strukturierten Datentyps (Objekte)
-- Notation:
-    ref(strukturierter-typ)
-    [ scope gültigkeitsbereich ]
-- Gültigkeitsbereiche:
-    - bestimmte Tabelle
-    - alle Tabellen
-    - unbegrenzt (globaler Scope)
-
-REF-Typ Beispiel
-
+-- Beispiel
 create type Person as (
-    personalnr integer,
-    name varchar(30),
-    vorgesetzter ref(Person)
-);
-
-create table Angestellte of Person (
-    ...
-);
-
+	personalnr integer,
+	name varchar(30),
+	vorgesetzter ref(Person) )
+create table Angestellte of Person ( ... )
 create table Abteilungen (
-    name varchar(10),
-    leiter ref(Person) scope(Angestellte),
-    mitarbeiter ref(Person) array[10]
-);
+	name varchar(10),
+	leiter ref(Person) scope(Angestellte),
+	mitarbeiter ref(Person)
+		scope(Angestellte) array[10] )
+```
+- Person-Objekte können auf andere Person-Objekte verweisen (vorgesetzter)
+- Tabellen können REF-Felder enthalten, z. B. leiter ref(Person) scope(Angestellte)
 
-Hinweise:
-- leiter darf nur auf Tupel der Tabelle Angestellte zeigen (scope)
-- mitarbeiter ist ein Feld mit einem Array von REF(Person)
-
-Umsetzung in realen Systemen
-- Jeder Hersteller hat eigene, oft inkompatible Erweiterungen
-- Nicht jede SQL-Funktion existiert in jedem System
-- Oft Einschränkungen:
-    - keine vollständige Unterstützung aller objektorientierten Features
-    - spezielle Erweiterungen pro DBMS
-- Migration zwischen Systemen meist nicht oder nur mit großem Aufwand möglich
+**Systemumsetzung**
+- Objekt-relationale Features sind systemabhängig und oft inkompatibel
+- Nicht überall vollständig unterstützt → Migration schwierig
