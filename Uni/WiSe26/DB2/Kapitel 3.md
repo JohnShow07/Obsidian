@@ -59,4 +59,19 @@ create table Bücher (
 )
 ```
 
-#### IEF (Integrity Enhancement Feature)
+#### IEF (Integrity Enhancement Feature) -> SQL-89 Level 2
+- Erweiterung der Integritätsregeln
+- Zusatz zu SQL-89 -> SQL-89 Level 2:
+	- darf: Primär- und Fremdschlüssel definieren
+
+```sql
+create table B¨ucher (
+	ISBN char(10) not null,
+	Titel varchar(200),
+	Verlagsname varchar(30),
+	primary key (ISBN), -- not null implizit durch primary key-Klausel
+	foreign key (Verlagsname)
+	references Verlage (Verlagsname)
+)
+```
+
