@@ -16,7 +16,22 @@
 - create view
 - drop view
 > konzeptionelle Ebene (Logische Ebene: Wie ist die Datenbank logisch aufgebaut?)
-- create table
-- alter table
-- drop table
+- create table (domain in SQL-92)
+- alter table (domain in SQL-92)
+- drop table (domain in SQL-92)
+> Interne Ebene (Physische Ebene: physische Organisation der Daten)
+- create index
+- alter index
+- drop index
+
+### create table
+
+```
+create table basisrelationenname (
+	spaltenname 1 wertebereich 1 [not null],
+	...
+	spaltenname k wertebereich k [not null])
+```
+
+> **Datentypen**
 - 
