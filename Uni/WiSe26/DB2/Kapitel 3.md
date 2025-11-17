@@ -153,12 +153,12 @@ CREATE TABLE BuchVersionen (
 
 ### `alter` und `drop table`
 
->Syntax in SQL-89
+>Syntax in SQL-89 (erlaubt nur sehr einfache Änderungen)
 ```sql
 alter table basisrelationenname
 	add spaltenname wertebereich
 ```
-
+Beispiel:
 ```sql
 alter table Lehrstühle
 	add Budget decimal(8,2)
@@ -168,10 +168,20 @@ alter table Lehrstühle
 - Änderung des Relationenschematas
 - Erweiterung der existierenden Basisrelation um ein Attribut
 
->Syntax in SQL-92
+>`alter table` in SQL-92
 - Angabe von Default-Werten und check-Klauseln erlaubt
 ```sql
 add Budget decimal(8,2) default 10000
 	check (Budget > Anzahl Planstellen ∗ 1000)
 ```
 
+> alter- und drop-Klauseln für Attribute
+- Änderung eines Default-Werts:
+```sql
+alter Spaltenname default_änderung -- nur Änderung von default, nicht von der Datentyp
+```
+- Löschen einer Spalte
+```sql
+drop spaltenname [restrict | cascade]
+```
+	- restrict
