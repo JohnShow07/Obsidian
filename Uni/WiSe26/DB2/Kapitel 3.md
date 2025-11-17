@@ -214,7 +214,7 @@ create table Bücher (
 	Titel varchar(200),
 	Verlagsname varchar(30))
 ```
-
+- oben fehlt ein *PRIMARY KEY*. Um trotzdem sicherzustellen, dass jede ISBN `einmalig` vorkommt, erstellt man:
 ```sql
 create unique index Buchindex
 	on Bücher
