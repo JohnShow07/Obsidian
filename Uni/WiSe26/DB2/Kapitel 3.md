@@ -154,6 +154,7 @@ CREATE TABLE BuchVersionen (
 ### `alter` und `drop table`
 
 >Syntax in SQL-89 (erlaubt nur sehr einfache Änderungen)
+-  Neue Spalten werden mit NULL gefüllt, wenn kein Default existiert
 ```sql
 alter table basisrelationenname
 	add spaltenname wertebereich
@@ -184,4 +185,11 @@ alter Spaltenname default_änderung -- nur Änderung von default, nicht von der 
 ```sql
 drop spaltenname [restrict | cascade]
 ```
-	- restrict
+	- restrict: Löschen nur wenn keine Abhängigkeiten existieren
+	- cascade: Abhängige Objekte werden mitgelöscht
+
+> `drop table`
+- ldjfk
+```sql
+
+```
