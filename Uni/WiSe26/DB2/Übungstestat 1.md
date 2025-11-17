@@ -32,5 +32,18 @@ gehört zu mit Theaterstück und Aufführung
 ist auf mit Bühne und aufführung
 
 ![[Pasted image 20251117175603.png]]
-	Aufführung(<u>A.ID</u>, Uhrzeit, Datum, <span style='text-decoration: overline;'>BühnenNr</span>)
-	Theaterstück(<u>T.ID</u>, Titel, Genre),
+	Aufführung(<u>A.ID</u>, Uhrzeit, Datum, <span style='text-decoration: overline;'>BühnenNr</span>, <span style='text-decoration: overline;'>T.ID</span>),
+	Theaterstück(<u>T.ID</u>, Titel, Genre, <span style='text-decoration: overline;'>M.ID</span>)
+
+![[Pasted image 20251117183300.png]]
+Antwort
+FWFWF
+
+![[Pasted image 20251117183414.png]]
+
+```sql
+-- Antwort:
+create table Product(
+	name varchar()
+)
+```
