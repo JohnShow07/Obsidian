@@ -79,8 +79,18 @@ create table B¨ucher (
 - `default`- Klausel: *Defaultwerte für Attribute
 - ``create domain``-Anweisung: *benutzerdefinierte Wertebereiche*
 - `check`-Klausel: weitere *lokale Integritätsbedingungen* innerhalb der zu definierenden Wertebereiche, Attribute und Relationenschemata
+> **Erstellung eines Wertebereichs**
 
 ```sql
-create domain Gebiete varchar(20)
-	default ’Informatik’
+create domain Gebiete varchar(20) -- neuer Datentyp "Gebiete"
+	default ’Informatik’ -- Default Wert "Informatik"
+```
+
+```sql
+create table Vorlesungen (
+	V Bezeichnung varchar(80) not null,
+	SWS smallint,
+	Semester smallint,
+	Studiengang Gebiete ) -- nutzt den selbst definierten Domäne "Gebiete"
+	-- Wenn kein Wert eingetragen wird __
 ```
