@@ -341,4 +341,5 @@ create type Kunde under Person as (...) not final
 >Methoden
 - SQL-Funktionen/Prozeduren, die UDT zugeordnet sind
 - Besonderheiten:
-	- 
+	- impliziter self-Parameter
+	- getrennte Spezifikation 
