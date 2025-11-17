@@ -219,4 +219,8 @@ create table Bücher (
 create unique index Buchindex
 	on Bücher
 	(ISBN asc)
+	-- Wirkung von primäre Schlüssel, ohne PRIMARY KEY zu schreiben
 ```
+
+## Objektrelationale Konzepte
+
