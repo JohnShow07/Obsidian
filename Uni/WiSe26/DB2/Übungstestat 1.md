@@ -21,4 +21,16 @@ Antwort:
 	Schauspieler:in(<span style='text-decoration: overline;'><u>M.ID</u></span>, Größe),
 	Regisseur:in(<u><span style='text-decoration: overline;'>M.ID</span></u>, Ausbildung),
 	ist auf(<u><span style='text-decoration: overline;'>A.ID</span></u>, <span style='text-decoration: overline;'>BühnenNr</span>), 
-	gehört zu()
+	gehört zu(<u><span style='text-decoration: overline;'>A.ID</span></u>, <span style='text-decoration: overline;'>T.ID</span>),
+	spielt in(<u><span style='text-decoration: overline;'>M.ID</span>, <span style='text-decoration: overline;'>T.ID</span></u>, Rollenname)
+	leitet(<u><span style='text-decoration: overline;'>M.ID</span>, <span style='text-decoration: overline;'>T.ID</span></u>)
+
+![[Pasted image 20251117175452.png]]
+Antwort:
+leitet mit Regisseur und Theaterstück,
+gehört zu mit Theaterstück und Aufführung
+ist auf mit Bühne und aufführung
+
+![[Pasted image 20251117175603.png]]
+	Aufführung(<u>A.ID</u>, Uhrzeit, Datum, <span style='text-decoration: overline;'>BühnenNr</span>)
+	Theaterstück(<u>T.ID</u>, Titel, Genre),
