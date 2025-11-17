@@ -257,3 +257,23 @@ create table Proffesoren(
 - array-Typkonstruktor
 	- Elementdatentyp
 	- max. Kardinalität
+```sql
+-- Syntax
+	datentyp array[k]
+
+-- Beispiel
+create table Bücher(
+	titel varchar(100),
+	ISBN varchar(10),
+	preis decimal(5, 2),
+	abstract clob(10K),
+	autoren varchar(20) array[5]
+)
+```
+>Anonyme ROW-Typen
+- Typkonstruktor für strukturierte Attribute
+- anonym -> kein *expliziter* Typname
+```sql
+-- Syntax
+	row (fname, ftyp_1, ...., fname)
+```
