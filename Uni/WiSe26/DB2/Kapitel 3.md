@@ -113,4 +113,24 @@ create table Mitarbeiter (
 ✔ Datenbanklogik *wiederverwendbar* zu machen
 	Man definiert es einmal und benutzt es überall.
 
->**Integritätsbedingungen mit** `check`
+>Integritätsbedingungen mit`check`
+
+```sql
+create domain Gebiete varchar(20)
+	default ’Informatik’ 
+	check (
+		value in ( ’Informatik’, ’Mathematik’,’Physik’, ’Chemie’, ’Biologie’) )
+	-- Domain "Gebiete" darf nur diese 5 Werte annehmen, alles andere verboten.
+```
+
+```sql
+create table Vorlesungen (
+    V_Bezeichnung varchar(80) not null,
+    SWS smallint check(SWS >= 0), -- Vorlesung darf keine negative Stunden haben
+    Semester smallint check(
+        Semester between 1 and 9 -- nur gültige Semestern erlaubt
+    ),
+    Studiengang Gebiete
+)
+```
+
