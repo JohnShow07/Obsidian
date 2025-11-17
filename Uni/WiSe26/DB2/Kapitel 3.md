@@ -49,9 +49,9 @@ create table basisrelationenname (
 | date                   | Datum                                  |
 | time                   | Uhrzeit                                |
 | timestamp              | Datum und Uhrzeit                      |
-BSP Code:
 
 ```sql
+-- Beispiel
 create table Bücher (
 	ISBN char(10) not null, -- Nullwerte hier ausgeschlossen
 	Titel varchar(200),
@@ -65,7 +65,7 @@ create table Bücher (
 	- darf: Primär- und Fremdschlüssel definieren
 
 ```sql
-create table B¨ucher (
+create table Bücher (
 	ISBN char(10) not null,
 	Titel varchar(200),
 	Verlagsname varchar(30),
@@ -82,7 +82,7 @@ create table B¨ucher (
 > **Erstellung eines Wertebereichs**
 
 ```sql
-create domain Gebiete varchar(20) -- neuer Datentyp "Gebiete"
+create domain Gebiete varchar(20) -- neuer Domäne/Wertebereich(=?Datentyp) "Gebiete"
 	default ’Informatik’ -- Default Wert "Informatik"
 ```
 
