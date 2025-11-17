@@ -284,3 +284,10 @@ create table Kunden (
 	adresse row (strasse var(30), plz char(5), ort varchar(30))
 );
 ```
+> Nutzerdefinierte Datentypen (UDT = User defined Types)
+- erlaubt, eigene Datentypen zu definieren.
+- zwei Arten:
+	- *Distinct-Typen:* Umbenennung eines Basistyps, um Strenge Typprüfung zu erzwingen
+	- *Strukturierte Typen:* Zusammengesetzte Datentypen mit mehreren Feldern (ähnlich wie bei row, hier aber -> benannt und wiederverwendbar)
+>Distinct-Typen
+
