@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/DB2/Übungstestat 1.md",
+                "file": "Kernfunktionen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übungstestat 1"
+              "title": "Kernfunktionen"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -218,13 +217,13 @@
   },
   "active": "2a90a87d8dded75c",
   "lastOpenFiles": [
+    "Uni/WiSe26/DB2/Übungstestat 1.md",
     "attachments/Pasted image 20251117171546.png",
     "attachments/Pasted image 20251117171504.png",
     "attachments/Pasted image 20251117164646.png",
     "attachments/Pasted image 20251117164614.png",
     "Uni/WiSe26/DB2/Kapitel 1.md",
     "Uni/WiSe26/DB2/Kapitel 2.md",
-    "Uni/WiSe26/DB2/Übungstestat 1.md",
     "Uni/WiSe26/DB2/Kapitel 3.md",
     "Uni/WiSe26/DB2/Untitled.canvas",
     "attachments/Pasted image 20251117090700.png",
@@ -234,7 +233,6 @@
     "attachments/Pasted image 20251115174059.png",
     "attachments/Pasted image 20251111152944.png",
     "attachments/Pasted image 20251111152752.png",
-    "attachments/Pasted image 20251111144725.png",
     "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
     "ToDO",

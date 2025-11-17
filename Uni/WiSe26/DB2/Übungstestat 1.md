@@ -14,4 +14,5 @@ Antwort:
 
 ![[Pasted image 20251117171546.png]]
 Antwort:
-	Bühne(B.Nr;)
+	Bühne(<u>BühnenNr</u>; Anzahl Plätze),
+	Aufführung()
