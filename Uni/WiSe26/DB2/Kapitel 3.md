@@ -26,7 +26,7 @@
 
 ### create table
 
-```
+```sql
 create table basisrelationenname (
 	spaltenname 1 wertebereich 1 [not null],
 	...
@@ -51,10 +51,12 @@ create table basisrelationenname (
 | timestamp              | Datum und Uhrzeit                      |
 BSP Code:
 
-```
+```sql
 create table Bücher (
-	ISBN char(10) not null, //
+	ISBN char(10) not null, -- Nullwerte hier ausgeschlossen
 	Titel varchar(200),
 	Verlagsname varchar(30)
 )
 ```
+
+#### IEF (Integrity Enhancement Feature)
