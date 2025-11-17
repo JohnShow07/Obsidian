@@ -228,3 +228,26 @@ create unique index Buchindex
 - vielfältige neue Konzepte 
 - Unterstützung objektrelationaler Konzepte
 	- nutzerdefinierte Datentypen, Vererbung/Spezialisierung, Methoden
+
+>**Neue Datentypen:**
+
+| Datentyp               | Bedeutung                                                 |
+| ---------------------- | --------------------------------------------------------- |
+| BLOB / CLOB            | Große Binär- bzw. Zeichenkettenobjekte                    |
+| Boolean                | Wahrheitswerte: TRUE, FALSE, UNKNOWN                      |
+| Array                  | Sammlung mehrerer Werte (mehrwertige Attribute)           |
+| REF-Typen              | Identifikation von Tupeln und Navigation per Pfadausdruck |
+| ROW-Typen              | Strukturierte Attribute, zusammengesetzte Datensätze      |
+| Nutzerdefinierte Typen | Selbst erstellte neue Datentypen                          |
+>BLOB und CLOB
+- Speicherung großer Zeichenketten/Binärfolgen (Bilder, Audio-/Videodateien, XML-Dokumente)
+- Erforderliche Angabe der max. Größe
+- Systemspezifische Grenzen
+Beispiel:
+```sql
+create table Proffesoren(
+	...
+	Foto blob(100K),
+);
+```
+- kein Primär-/Fremdschlü
