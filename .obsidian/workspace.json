@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 1.md",
+                "file": "Uni/WiSe26/DB2/Kapitel 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapitel 1"
+              "title": "Kapitel 3"
             }
           },
           {
@@ -232,8 +232,10 @@
   },
   "active": "165fd0ac078286c2",
   "lastOpenFiles": [
-    "Uni/WiSe26/DB2/Kapitel 2.md",
+    "Uni/WiSe26/DB2/Kapitel 3.md",
     "Uni/WiSe26/DB2/Kapitel 1.md",
+    "Uni/WiSe26/DB2/Untitled",
+    "Uni/WiSe26/DB2/Kapitel 2.md",
     "attachments/Pasted image 20251116130414.png",
     "attachments/Pasted image 20251115174253.png",
     "attachments/Pasted image 20251115174059.png",
@@ -266,7 +268,6 @@
     "1.1) Historie.md",
     "2025-10-25.md",
     "Uni/WiSe26/BB10",
-    "Uni/WiSe26/BB11/Übungen",
-    "Uni/WiSe26/BB11"
+    "Uni/WiSe26/BB11/Übungen"
   ]
 }
