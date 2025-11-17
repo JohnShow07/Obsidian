@@ -191,5 +191,30 @@ drop spaltenname [restrict | cascade]
 > `drop table`
 - ldjfk
 ```sql
+drop table basisrelationenname
+	{ restrict | cascade }
+```
 
+> `create index`
+- Syntax SQL-89: 
+```sql
+	create [unique] index indexname
+	on basisrelationenname (
+	spaltenname 1 ordnung 1,
+	...,
+	spaltenname k ordnung k
+)
+```
+Beispiel:
+```sql
+create table Bücher (
+	ISBN char(10) not null,
+	Titel varchar(200),
+	Verlagsname varchar(30))
+```
+
+```sql
+create unique index Buchindex
+	on Bücher
+	(ISBN asc)
 ```
