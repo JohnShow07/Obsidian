@@ -1,4 +1,4 @@
-> <%*
+<%*
 
 > return "<u>" + `${tp.file.selection()}` + "</u>";
 

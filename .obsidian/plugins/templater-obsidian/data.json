@@ -32,7 +32,7 @@
     "Templates/Kernfunktionen.md"
   ],
   "startup_templates": [
-    ""
+    "Templates/Kernfunktionen.md"
   ],
   "intellisense_render": 1
 }
