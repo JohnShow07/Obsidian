@@ -34,4 +34,27 @@ create table basisrelationenname (
 ```
 
 > **Datentypen**
-- 
+
+| Datentyp               | Beschreibung                           |
+| ---------------------- | -------------------------------------- |
+| integer / int          | Ganze Zahl                             |
+| smallint               | Kleine ganze Zahl                      |
+| float(p)               | Gleitkommazahl mit Präzision p         |
+| decimal(p, q)          | Zahl mit p Stellen, q Nachkommastellen |
+| numeric(p, q)          | Wie decimal, exakt                     |
+| character(n) / char(n) | String fester Länge n                  |
+| varchar(n)             | String variabler Länge bis n           |
+| bit(n)                 | Bitfolge fester Länge n                |
+| bit varying(n)         | Bitfolge variabler Länge bis n         |
+| date                   | Datum                                  |
+| time                   | Uhrzeit                                |
+| timestamp              | Datum und Uhrzeit                      |
+BSP Code:
+
+```
+create table Bücher (
+	ISBN char(10) not null, //
+	Titel varchar(200),
+	Verlagsname varchar(30)
+)
+```
