@@ -170,4 +170,8 @@ alter table Lehrstühle
 
 >Syntax in SQL-92
 - Angabe von Default-Werten und check-Klauseln erlaubt
-````
+```sql
+add Budget decimal(8,2) default 10000
+	check (Budget > Anzahl Planstellen ∗ 1000)
+```
+
