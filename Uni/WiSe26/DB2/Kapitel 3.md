@@ -226,3 +226,5 @@ create unique index Buchindex
 
 ### SQL: 1999
 - vielfältige neue Konzepte 
+- Unterstützung objektrelationaler Konzepte
+	- nutzerdefinierte Datentypen, Vererbung/Spezialisierung, Methoden
