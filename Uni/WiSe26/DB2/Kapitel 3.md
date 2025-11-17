@@ -99,7 +99,7 @@ create table Vorlesungen (
 create table Mitarbeiter (
 	PANr integer not null,
 	AngNr char(10) not null,
-	Fachbereich Gebiete, -- genauso hier, Typ "Gebiete". nichts eingetragen -> "Informatik"
+	Fachbereich Gebiete, -- genauso hier, Typ "Gebiete". wenn nichts eingetragen -> "Informatik"
 	Gehalt decimal(10,2),
 	Raum integer,
 	Einstellung date )
