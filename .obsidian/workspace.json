@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernfunktionen.md",
+                "file": "Uni/WiSe26/DB2/Übungstestat 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kernfunktionen"
+              "title": "Übungstestat 1"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -217,6 +217,8 @@
   },
   "active": "2a90a87d8dded75c",
   "lastOpenFiles": [
+    "Templates/Kernfunktionen.md",
+    "Templates",
     "Uni/WiSe26/DB2/Übungstestat 1.md",
     "attachments/Pasted image 20251117171546.png",
     "attachments/Pasted image 20251117171504.png",
@@ -238,7 +240,6 @@
     "ToDO",
     "ToDO/2025-10-27.md",
     "README.md",
-    "Kernfunktionen.md",
     "Shortcuts/Shortcuts.md",
     "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 3.md",
@@ -254,7 +255,6 @@
     "attachments",
     "1.1) Historie.md",
     "2025-10-25.md",
-    "Uni/WiSe26/BB10",
-    "Uni/WiSe26/BB11/Übungen"
+    "Uni/WiSe26/BB10"
   ]
 }
