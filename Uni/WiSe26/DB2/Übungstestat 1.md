@@ -158,7 +158,9 @@ Tabelle _Student_
 ```sql
 create table Student(
 	matnr int primary key,
-	name varchar()
+	name varchar(30) not null,
+	gebdat date,
+	fach varchar(20) default 'informatik'
 )
 ```
 
