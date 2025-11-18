@@ -124,3 +124,55 @@ D) Phantom
 
 **7.** Ein Schedule enthält einen Zyklus im Konfliktgraphen.  
 Ist er serialisierbar? Begründe.
+
+
+**1.** SQL-92 erlaubt (wahr/falsch):
+
+- A) create domain w
+    
+- B) create method F
+    
+- C) default W
+    
+- D) check W
+    
+
+**2.** Definiere einen Domain-Typ „EuroPreis“, der Dezimalwerte > 0.00 erzwingt.
+
+```
+create domain Europreis as decimal(8,2)
+	check(value>0.00)
+```
+
+**3.** Schreibe SQL-92:  
+Tabelle _Student_
+
+- matrnr INTEGER PK
+    
+- name VARCHAR(30) NOT NULL
+    
+- gebdat DATE NULL
+    
+- fach VARCHAR(20) DEFAULT 'Informatik'
+
+```sql
+create table Student(
+	matnr int primary key,
+	name varchar()
+)
+```
+
+**4.** Erstelle einen Fremdschlüssel von _Student(fach)_ → _Fachbereich(name)_.
+
+**5.** Was bewirkt `drop column X cascade`?
+
+**6.** Erkläre kurz den Unterschied zwischen:
+
+- `character(20)`
+    
+- `character varying(20)`
+    
+
+**7.** Warum können BLOB/CLOB-Attribute keine Primärschlüssel sein?
+
+**8.** Ist folgender SQL-92 Ausdruck gültig?
