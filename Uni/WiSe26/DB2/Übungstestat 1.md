@@ -96,20 +96,21 @@ Formuliere die Bedeutung dieser Kardinalitäten in eigenen Worten.
 **1.** Gib zu jedem der vier ACID-Begriffe eine korrekte Definition in _einem kurzen Satz_.
 Atomicity: Wenn eine T entweder ganz odere gar nicht ausgeführt wird
 Consistency: Am Anfang und Ende muss T konsistent bleiben
-I
+Isolation: Der Nutzer soll das Gefühl haben, dass er alleine arbeitet
+Durability: Die Daten müssen nach einer T für immer gespeichert werden
 
 
 **2.** Welche Art von Problem tritt bei folgendem Ablauf auf?
 
 T1: read(X)  
-T2: read(X)  
-T2: X := X – 5  
-T2: write(X)  
+	T2: read(X)  
+	T2: X := X – 5  
+	T2: write(X)  
 T1: X := X + 5  
 T1: write(X)
 
 A) Dirty Read  
-B) Lost Update  
+B) Lost Update -   das hier
 C) Nonrepeatable Read  
 D) Phantom
 
