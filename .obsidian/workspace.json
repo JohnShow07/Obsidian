@@ -4,6 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "3574495d3c2b06e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b87ed0b8887b04d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/WiSe26/DB2/Kapitel 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kapitel 2"
+            }
+          }
+        ]
+      },
+      {
         "id": "ab0cb29528485931",
         "type": "tabs",
         "children": [
@@ -48,9 +68,23 @@
               "icon": "lucide-file",
               "title": "Kapitel 1"
             }
+          },
+          {
+            "id": "46842a7d75afbe5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/WiSe26/DB2/Kapitel 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kapitel 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -244,15 +278,16 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "93b79721cc39d1d3",
+  "active": "46842a7d75afbe5b",
   "lastOpenFiles": [
+    "Uni/WiSe26/DB2/Kapitel 2.md",
+    "Uni/WiSe26/DB2/Kapitel 3.md",
     "Uni/WiSe26/DB2/Kapitel 1.md",
     "Uni/WiSe26/DB2/Übungstestat 1.md",
     "attachments/Pasted image 20251019222730.png",
     "attachments/Pasted image 20251117184938.png",
     "attachments/Pasted image 20251117184637.png",
     "attachments/Pasted image 20251117184507.png",
-    "Uni/WiSe26/DB2/Kapitel 3.md",
     "attachments/Pasted image 20251117183724.png",
     "attachments/Pasted image 20251117183414.png",
     "attachments/Pasted image 20251117183300.png",
@@ -263,7 +298,6 @@
     "Templates/Untersctreichen.md",
     "Templates",
     "attachments/Pasted image 20251117171546.png",
-    "Uni/WiSe26/DB2/Kapitel 2.md",
     "Uni/WiSe26/DB2/Untitled.canvas",
     "Uni/WiSe26/DB2/Untitled",
     "ToDO/2025-11-11.md",
