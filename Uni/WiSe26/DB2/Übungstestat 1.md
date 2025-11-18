@@ -94,6 +94,9 @@ Richtung N -> 1: Ein Projekt muss min und max nur eine Abteilung haben: funktion
 Formuliere die Bedeutung dieser Kardinalitäten in eigenen Worten.
 
 **1.** Gib zu jedem der vier ACID-Begriffe eine korrekte Definition in _einem kurzen Satz_.
+Atomicity: Wenn eine T entweder ganz odere gar nicht ausgeführt wird
+Consistency: Am Anfang und Ende muss T konsistent bleiben
+I
 
 
 **2.** Welche Art von Problem tritt bei folgendem Ablauf auf?
