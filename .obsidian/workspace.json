@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -247,9 +246,9 @@
   },
   "active": "9b65ae0160973316",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251019222730.png",
-    "Uni/WiSe26/DB2/Kapitel 1.md",
     "Uni/WiSe26/DB2/Übungstestat 1.md",
+    "Uni/WiSe26/DB2/Kapitel 1.md",
+    "attachments/Pasted image 20251019222730.png",
     "attachments/Pasted image 20251117184938.png",
     "attachments/Pasted image 20251117184637.png",
     "attachments/Pasted image 20251117184507.png",
@@ -264,7 +263,6 @@
     "Templates/Untersctreichen.md",
     "Templates",
     "attachments/Pasted image 20251117171546.png",
-    "attachments/Pasted image 20251117171504.png",
     "Uni/WiSe26/DB2/Kapitel 2.md",
     "Uni/WiSe26/DB2/Untitled.canvas",
     "Uni/WiSe26/DB2/Untitled",
