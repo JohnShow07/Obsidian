@@ -34,7 +34,7 @@ Transfer = < K1:=K1-B; K2:=K2+B >;
 T_1: read(A,x); x:=x-200; write(x, A);
 T_2: read(B,y); y:=y+200; write(y, B);
 ```
-- **Falls ein Systemfehlet/Abbruch beim Transaktion passiert, ist DB inkonsistent.**
+- **Falls ein Systemfehler/Abbruch beim Transaktion passiert, ist DB inkonsistent.**
 
 
 ### Mehrbenutzerbetrieb
