@@ -87,4 +87,5 @@ Antwort:
 
 Abteilung [1,1] — verwaltet ----[0,*]--- Projekt .  
 
-Ist eine funktionale Beziehung, da die beziehung eine Kardinalität von 1:N hat. Ist nicht partiell, denn partiell funktionale Bezihung ist dann, wenn eine Seite maximal 1 sein kann aber auch nicht existieren kann ([0,1])
+Richtung 1 -> N : Eine Abteilung kann mehrere Projekte haben : nicht funktional
+Richtung N -> 1: Ein Projekt muss min und max nur eine Abteilung haben: funktional, nicht partiell
