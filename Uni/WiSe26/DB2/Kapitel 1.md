@@ -30,7 +30,7 @@
 Transfer = < K1:=K1-B; K2:=K2+B >;
 ```
 - Realisierung in SQL: als Sequenz zweier Elementarer Änderungen Bsp:
-```
+```sql
 T_1: read(A,x); x:=x-200; write(x, A);
 T_2: read(B,y); y:=y+200; write(y, B);
 ```
