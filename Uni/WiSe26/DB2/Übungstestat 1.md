@@ -75,3 +75,14 @@ create table Product(
  alter table Product 
  add purchased_price decimal(6, 2), check(purchase_price > 0);
 ```
+
+
+***GPT-Fragen*** 
+
+**1.** Gegeben ist eine Beziehung _„verwaltet“_ zwischen _Abteilung_ und _Projekt_ mit Kardinalitäten:  
+Abteilung [1,1] — verwaltet — Projekt [0,*].  
+Ist diese Beziehung **funktional**, **partiell funktional**, oder keine funktionale Beziehung? Begründe.
+
+Antwort: 
+
+Abteilung -------[]
