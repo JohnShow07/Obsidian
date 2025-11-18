@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 2.md",
+                "file": "Uni/WiSe26/DB2/Kapitel 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapitel 2"
+              "title": "Kapitel 3"
             }
           }
         ]
@@ -278,7 +278,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "46842a7d75afbe5b",
+  "active": "7b87ed0b8887b04d",
   "lastOpenFiles": [
     "Uni/WiSe26/DB2/Kapitel 2.md",
     "Uni/WiSe26/DB2/Kapitel 3.md",
