@@ -89,3 +89,34 @@ Abteilung [1,1] — verwaltet ----[0,*]--- Projekt .
 
 Richtung 1 -> N : Eine Abteilung kann mehrere Projekte haben : nicht funktional
 Richtung N -> 1: Ein Projekt muss min und max nur eine Abteilung haben: funktional, nicht partiell
+
+**2.** Ein ER-Diagramm zeigt eine Beziehung _„besitzt“_ zwischen _Kunde_ und _Auto_, Kardinalität Kunde [0,*], Auto [1,1].  
+Formuliere die Bedeutung dieser Kardinalitäten in eigenen Worten.
+
+**1.** Gib zu jedem der vier ACID-Begriffe eine korrekte Definition in _einem kurzen Satz_.
+
+
+**2.** Welche Art von Problem tritt bei folgendem Ablauf auf?
+
+T1: read(X)  
+T2: read(X)  
+T2: X := X – 5  
+T2: write(X)  
+T1: X := X + 5  
+T1: write(X)
+
+A) Dirty Read  
+B) Lost Update  
+C) Nonrepeatable Read  
+D) Phantom
+
+**3.** Was unterscheidet „repeatable read“ von „serializable“?
+
+**4.** Nenne den Inhalt eines **Wartegraphen**. (Welche Knoten? Welche Kanten?)
+
+**5.** Warum verhindert _strict 2PL_ kaskadierende Abbrüche?
+
+**6.** Welches Sperrprotokoll garantiert keine Deadlocks? Begründe.
+
+**7.** Ein Schedule enthält einen Zyklus im Konfliktgraphen.  
+Ist er serialisierbar? Begründe.
