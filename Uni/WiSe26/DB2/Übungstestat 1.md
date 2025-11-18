@@ -85,4 +85,6 @@ Ist diese Beziehung **funktional**, **partiell funktional**, oder keine funktion
 
 Antwort: 
 
-Abteilung -------[]
+Abteilung [1,1] — verwaltet ----[0,*]--- Projekt .  
+
+Ist eine funktionale Beziehung, da die beziehung eine Kardinalität von 1:N hat. Ist nicht partiell, denn partiell funktionale Bezihung ist dann, wenn eine Seite maximal 1 sein kann aber auch nicht existieren kann ([0,1])
