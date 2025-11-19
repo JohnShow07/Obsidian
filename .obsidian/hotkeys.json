@@ -1,0 +1,20 @@
+{
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:Templates/Untersctreichen.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "templater-obsidian:Templates/Überstreichen.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": ";"
+    }
+  ]
+}

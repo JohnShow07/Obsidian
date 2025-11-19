@@ -1,11 +1,11 @@
-#DB2 #Kapitel1
+#DB2 #DB2Kapitel1
 ## Section 1: Transaktionen
 
--> Transaktion ist eine Folge von Operationen, die die DB von konsistenten zum konsistenten, veränderten Zustand überführt. (Dabei ACID eingehalten)
+-  Transaktion ist *eine Folge von Operationen*, die die DB von konsistenten zum konsistenten, veränderten Zustand überführt. (Dabei ACID eingehalten)
 
 #### Beispiele: 
-	- Platzreservierung für Flüge aus vielen Reisebüros gleichzeitig
-	- überschneidende Kontooperationen einer Bank.
+- Platzreservierung für Flüge aus vielen Reisebüros gleichzeitig
+-  überschneidende Kontooperationen einer Bank.
 
 #### Aspekte:
 - **semantische Integrität**: korrekter und konsistenter DB Zustand nach Ende der Transaktion.
@@ -30,11 +30,11 @@
 Transfer = < K1:=K1-B; K2:=K2+B >;
 ```
 - Realisierung in SQL: als Sequenz zweier Elementarer Änderungen Bsp:
-```
+```sql
 T_1: read(A,x); x:=x-200; write(x, A);
 T_2: read(B,y); y:=y+200; write(y, B);
 ```
-- **Falls ein Systemfehlet/Abbruch beim Transaktion passiert, ist DB inkonsistent.**
+- **Falls ein Systemfehler/Abbruch beim Transaktion passiert, ist DB inkonsistent.**
 
 
 ### Mehrbenutzerbetrieb
