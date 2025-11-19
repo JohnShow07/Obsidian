@@ -1,5 +1,7 @@
 https://coconucos.cs.uni-duesseldorf.de/lehre/home/lectures/bsusp/k1
 
+#BSysteme #Kapitel1 
+
 # Inhalt:
 ## 1) Einführung
 ### Def. Betriebssystem:
