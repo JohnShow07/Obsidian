@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "913d366d056de7c3",
+    "id": "08df0fce8f2710d3",
     "type": "split",
     "children": [
       {
-        "id": "ab0cb29528485931",
+        "id": "351ad23e00b7ce0c",
         "type": "tabs",
         "children": [
           {
-            "id": "465a614e2e4251df",
+            "id": "474d9755c2c831b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,48 +20,6 @@
               "icon": "lucide-file",
               "title": "Übungstestat 1"
             }
-          },
-          {
-            "id": "93b79721cc39d1d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kapitel 3"
-            }
-          },
-          {
-            "id": "9b65ae0160973316",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kapitel 1"
-            }
-          },
-          {
-            "id": "46842a7d75afbe5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/WiSe26/DB2/Kapitel 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kapitel 2"
-            }
           }
         ]
       }
@@ -69,20 +27,21 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2bb2095bed789246",
+    "id": "998118417126febb",
     "type": "split",
     "children": [
       {
-        "id": "fa2e577e69956120",
+        "id": "e4afbfda10a0246a",
         "type": "tabs",
+        "dimension": 65.08524833209785,
         "children": [
           {
-            "id": "8beaec0859c813e6",
+            "id": "55297c3859f4c51e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -90,7 +49,7 @@
             }
           },
           {
-            "id": "1a6eafc5e3bdd819",
+            "id": "52caecf56ccacb53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -107,7 +66,7 @@
             }
           },
           {
-            "id": "b9b7b46c5c37b0cb",
+            "id": "74ff17600d60f611",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -119,11 +78,12 @@
         ]
       },
       {
-        "id": "31c8fd69ceb40b51",
+        "id": "ea47c2f13c409ca8",
         "type": "tabs",
+        "dimension": 34.91475166790215,
         "children": [
           {
-            "id": "4e63a76bdfb30893",
+            "id": "5f9a7a3b9afc1dd3",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -136,24 +96,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
-    "id": "31eea603abe8a925",
+    "id": "23a84abf1c8d379f",
     "type": "split",
     "children": [
       {
-        "id": "802c22b443bade3f",
+        "id": "62b588dca7e4c92b",
         "type": "tabs",
+        "dimension": 61.56609195402298,
         "children": [
           {
-            "id": "b80a95d52a00cdc7",
+            "id": "e2185b78b6a751a2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/WiSe26/DB2/Folie 1.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,11 +123,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Folie 1"
+              "title": "Backlinks for README"
             }
           },
           {
-            "id": "d3fdb853a90caedf",
+            "id": "f5bec0b703cdbaaa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -181,7 +141,7 @@
             }
           },
           {
-            "id": "8e5ec209841ffdc4",
+            "id": "47ff2966570aef2f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -196,22 +156,22 @@
             }
           },
           {
-            "id": "a6f8ad3b408e24bd",
+            "id": "8cb26b79634b324e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/WiSe26/DB2/Folie 1.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Folie 1"
+              "title": "Outline of README"
             }
           },
           {
-            "id": "c25c7bd6966164e2",
+            "id": "23ed6e719993bbed",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -224,11 +184,12 @@
         "currentTab": 4
       },
       {
-        "id": "e0282c3f9d80eefd",
+        "id": "4201707ac9df1421",
         "type": "tabs",
+        "dimension": 38.43390804597701,
         "children": [
           {
-            "id": "4bd45da720757dc5",
+            "id": "49188eb446758209",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -241,30 +202,26 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 586.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "terminal:Open terminal": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false
+      "terminal:Open terminal": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "465a614e2e4251df",
+  "active": "474d9755c2c831b6",
   "lastOpenFiles": [
-    "Uni/WiSe26/DB2/Kapitel 1.md",
-    "Uni/WiSe26/DB2/Übungstestat 1.md",
-    "Uni/WiSe26/DB2/Kapitel 3.md",
-    "Uni/WiSe26/DB2/Kapitel 2.md",
-    "attachments/Pasted image 20251019222730.png",
+    "Uni/WiSe26/BB11/Vorlesungen/Untitled 1.md",
+    "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
     "attachments/Pasted image 20251117184938.png",
     "attachments/Pasted image 20251117184637.png",
     "attachments/Pasted image 20251117184507.png",
@@ -273,33 +230,40 @@
     "attachments/Pasted image 20251117183300.png",
     "attachments/Pasted image 20251117175603.png",
     "attachments/Pasted image 20251117175452.png",
+    "attachments/Pasted image 20251117171546.png",
+    "attachments/Pasted image 20251117171504.png",
+    "Uni/WiSe26/DB2/Übungstestat 1.md",
+    "Uni/WiSe26/DB2/Kapitel 3.md",
     "Templates/Überstreichen.md",
-    "Untitled.md",
     "Templates/Untersctreichen.md",
     "Templates",
-    "attachments/Pasted image 20251117171546.png",
-    "Uni/WiSe26/DB2/Untitled.canvas",
-    "Uni/WiSe26/DB2/Untitled",
+    "conflict-files-obsidian-git.md",
+    "Uni/WiSe26/DB2/Folie 1.md",
+    "Uni/WiSe26/DB2/Kapitel 2.md",
+    "Uni/WiSe26/DB2/Kapitel 1.md",
     "ToDO/2025-11-11.md",
-    "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
-    "ToDO",
     "ToDO/2025-10-27.md",
-    "README.md",
+    "ToDO",
     "Shortcuts/Shortcuts.md",
-    "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
-    "Uni/WiSe26/Betriebssysteme/Kapitel 3.md",
-    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "Shortcuts",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 3.md",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
+    "Uni/WiSe26/Betriebssysteme/Kapitel 1.md",
     "Untitled.canvas",
-    "Uni/WiSe26/BB11/Vorlesungen/Untitled 1.md",
-    "Uni/WiSe26/BB11/Übungen/Übung 1.md",
-    "Uni/WiSe26/BB11/Vorlesungen",
-    "attachments/BB11 Uebung 1 Artikel.pdf",
     "attachments/BB11_WS2526_Uebung 1.pdf",
+    "attachments/BB11 Uebung 1 Artikel.pdf",
+    "Uni/WiSe26/BB11/Übungen/Übung 1.md",
     "Uni/WiSe26/BB11/Übungen",
-    "attachments",
+    "Uni/WiSe26/BB11/Vorlesungen",
+    "Uni/WiSe26/BB11",
+    "Kernfunktionen.md",
+    "2025-10-27.md",
     "1.1) Historie.md",
-    "2025-10-25.md",
-    "Uni/WiSe26/BB10"
+    "Lets see if its work.md",
+    "attachments",
+    "2025-10-26.md",
+    "Uni/WiSe26/Betriebssysteme/Vorlesung 1.md",
+    "README.md",
+    "Uni/WiSe26/Betriebssysteme"
   ]
 }
