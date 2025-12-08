@@ -19,3 +19,6 @@ let s2: String = "Hallo".to_string(); // richtiger String
 ### Compound types
 
 >**Tupel**
+```rust
+let my_tuple: (i32, char, bool) = (162, 'X', true);
+```
