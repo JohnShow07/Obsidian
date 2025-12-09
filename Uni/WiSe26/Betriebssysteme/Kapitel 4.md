@@ -88,4 +88,4 @@ fn main() {
 }
 ```
 - `println!` ist kein Funktionsaufruf, sondern ein Macro
-- Rust-Macros generieren zur Compile-Zeit zusätzlichen Code
+- Rust-Macros(Compile-Time Code-Generator->erzeugt zeitgleich ausführbarer Code) generieren zur Compile-Zeit zusätzlichen Code
