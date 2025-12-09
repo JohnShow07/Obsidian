@@ -201,4 +201,34 @@ for i in 0..arr.len() {   // arr.len() ist usize
 - `isize` ist das gleiche, aber signed.
 
 ### Enums
-- erlauben, einen Typ zu definieren, der mehrere mögliche Varianten haben ka
+- erlauben, einen Typ zu definieren, der mehrere mögliche Varianten haben kann.
+```rust
+enum Coin {
+    Head,
+    Tail,
+}
+
+// Verwendung:
+
+let a = Coin::Head;
+let b = Coin::Tail;
+
+```
+ > **Enums mit Daten**
+
+```rust
+#[derive(Debug)] // Ein Attribut, sag dem Compiler, dass er automatisch eine Debug-Ausgabe für diesen Typ generieren soll.
+enum OperatingSystem {
+    Mac,
+    Windows,  
+    Linux, // Sie enthalten keine Daten, sie sind einfach nur Zustände, daher keine Typ
+    Other(String),
+}
+
+let os = OperatingSystem::Linux;
+println!("{:?}", os);
+```
+
+Merksatz:
+- Enum-Varianten ohne Daten brauchen keinen Typ.  
+- Varianten mit Daten müssen einen Typ angeben.
