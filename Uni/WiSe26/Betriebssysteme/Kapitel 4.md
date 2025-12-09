@@ -89,3 +89,84 @@ fn main() {
 ```
 - `println!` ist kein Funktionsaufruf, sondern ein Macro
 - Rust-Macros(Compile-Time Code-Generator->erzeugt zeitgleich ausführbarer Code) generieren zur Compile-Zeit zusätzlichen Code
+
+### If Statements
+- Keine Klammern
+```rust
+let x = 4;
+
+if x > 5 {
+    println!("Greater than 5");
+} else if x > 3 {
+    println!("Greater than 3");
+} else {
+    println!("x was not big enough");
+}
+```
+- Kann Werte erzeugen
+```rust
+let x = 4;
+
+let message = if x > 5 {
+    "Greater than 5"
+} else if x > 3 {
+    "Greater than 3"
+} else {
+    "x was not big enough"
+};
+```
+
+### Loop
+- Undendliche Schleife
+```rust
+loop {
+    println!("stuck in a loop");
+}
+// end with "break"
+loop {
+    break;
+}
+// Wert Rückgabe möglich
+let mut count = 0;
+
+let three = loop {
+    count += 1;
+    if count >= 3 {
+        break count;  // <--- DAS GIBT DIESES ERGEBNIS ZURÜCK!
+    }
+};
+```
+
+### While
+
+```rust
+let mut count = 5;
+
+while count > 0 {
+    count -= 1;
+}
+```
+
+**Unterschiede zu loop**:
+
+|loop|while|
+|---|---|
+|läuft unendlich|läuft, solange Bedingung true ist|
+|braucht `break`|stoppt automatisch|
+|kann Wert zurückgeben|gibt keinen Wert zurück|
+
+### `for` - Schleifen
+- Iteriert immer über eine `Collection` oder `Range`.
+```rust
+let nums = [0, 1, 2, 3, 4];
+
+for n in nums {
+    println!("{}", n); // Ausgabe: `0 1 2 3 4` 
+}
+```
+- Range(Zahlenbereich)
+```rust
+for n in 0..5 {
+    println!("{}", n); // Ausgabe: `0 1 2 3 4` 
+}
+```
