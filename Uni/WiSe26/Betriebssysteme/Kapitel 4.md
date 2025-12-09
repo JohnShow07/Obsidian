@@ -170,3 +170,35 @@ for n in 0..5 {
     println!("{}", n); // Ausgabe: `0 1 2 3 4` 
 }
 ```
+
+### usize / isize
+
+| Typ           | Signed?   | Größe hängt von Architektur ab?            | Typische Verwendung                         | Beispiel                    | Bemerkung                            |
+| ------------- | --------- | ------------------------------------------ | ------------------------------------------- | --------------------------- | ------------------------------------ |
+| **usize**     | ❌ Nein    | ✔️ Ja (32-bit → 32 bits, 64-bit → 64 bits) | **Array-Indizes**, Speichergrößen (`len()`) | `let n: usize = arr.len();` | kann keine negativen Werte speichern |
+| **isize**     | ✔️ Ja     | ✔️ Ja                                      | Zeigerarithmetik, selten gebraucht          | `let x: isize = -5;`        | signed-Version von usize             |
+| **u32 / i32** | teilweise | ❌ Nein (immer 32 bit)                      | normale Zahlen                              | `let a: i32 = -3;`          | Architektur-unabhängig               |
+| **u64 / i64** | teilweise | ❌ Nein (immer 64 bit)                      | sehr große Zahlen                           | `let b: u64 = 5000;`        | Architektur-unabhängig               |
+- Warum so wichtig?
+
+| Situation                    | Erwarteter Typ |
+| ---------------------------- | -------------- |
+| Array-Index                  | **usize**      |
+| Array-Länge (`arr.len()`)    | **usize**      |
+| Range (z. B. `0..arr.len()`) | **usize**      |
+| Speichergröße                | **usize**      |
+
+- Bsp:
+```rust
+let arr = [10, 20, 30];
+
+for i in 0..arr.len() {   // arr.len() ist usize
+    println!("{}", arr[i]);  
+}
+```
+**Mini-Merksatz:**
+- Alles, was mit Array-Längen und Speicher zu tun hat, ist `usize`.  
+- `isize` ist das gleiche, aber signed.
+
+### Enums
+- erlauben, einen Typ zu definieren, der mehrere mögliche Varianten haben ka
