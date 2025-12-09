@@ -229,6 +229,23 @@ let os = OperatingSystem::Linux;
 println!("{:?}", os);
 ```
 
-Merksatz:
+**Merksatz:**
 - Enum-Varianten ohne Daten brauchen keinen Typ.  
 - Varianten mit Daten müssen einen Typ angeben.
+**Wird verwendet:**
+- um feste Zustände darzustellen
+```rust
+enum OperatingSystem { Mac, Windows, Linux, Other(String) }
+```
+- um Abläufe Schritt für Schritt zu beschreiben.
+```rust
+enum ParserState {
+    ReadingNumber(i32),
+    ReadingWord(String),
+    Error(String),
+}
+```
+- Rust benutzt Enums für alle wichtigen Fehler- und Null-Fälle.
+
+### Matching
+- Das ist Rusts Version von switch, aber viel mächtiger und viel sicherer.
