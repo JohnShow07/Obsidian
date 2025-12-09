@@ -79,3 +79,13 @@ fn add_one(x: &mut i32) {
 ```
 - Rückgabetyp ist = () (spricht man: „Unit“, _Null_ in Java). _> Oft nicht geschrieben_
 - `&mut i32` bedeutet: Referenz auf eine veränderbare i32
+
+#### Hello World & Macros
+
+```rust
+fn main() {
+	println!("Hello World!");
+}
+```
+- `println!` ist kein Funktionsaufruf, sondern ein Macro
+- Rust-Macros generieren zur Compile-Zeit zusätzlichen Code
