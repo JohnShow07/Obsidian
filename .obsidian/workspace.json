@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/Betriebssysteme/Kapitel 4 - not Synced.md",
+                "file": "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapitel 4 - not Synced"
+              "title": "Allgemeine Biologie"
             }
           }
         ],
@@ -232,8 +232,10 @@
   },
   "active": "1bfcf30218582609",
   "lastOpenFiles": [
-    "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 4 - not Synced.md",
+    "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
+    "Uni/WiSe26/Allg. Bio",
+    "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 4.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 3.md",
     "Uni/WiSe26/BB11/Vorlesungen/Kapitel 1.md",
@@ -272,7 +274,6 @@
     "Uni/WiSe26/BB11/Übungen",
     "attachments",
     "1.1) Historie.md",
-    "2025-10-25.md",
-    "Uni/WiSe26/BB10"
+    "2025-10-25.md"
   ]
 }
