@@ -1,256 +1,288 @@
-## 1. Einführung in die Allgemeine Biologie
-
-- Gegenstand und Ziele der Biologie
-    
-- Organisationsebenen des Lebens
-    
-- Methodik biologischer Forschung
-    
-
----
-
-## 2. Stammesgeschichte der Erde
+## 1. Überblick – Themen dieses Abschnitts
 
 - Entstehung der Erde
-    
-- Chemische Evolution
-    
-- Entstehung des Lebens
-    
-- Geologische Zeitalter
-    
+- Ursprung organischer Moleküle
+- Entstehung erster Zellen
+- Sauerstoffrevolution
+- Entwicklung von Prokaryoten und Eukaryoten
+- Multizellularität
+- Besiedlung des Landes
 - Massenaussterben
-    
+- Fossiliendatierung
+- Kontinentaldrift und Evolution
 
 ---
 
-## 3. Evolution und Phylogenie
+## 2. Organismen bestehen aus Zellen
 
-- Evolutionstheorien
-    
-- Natürliche Selektion
-    
-- Mutation und Rekombination
-    
-- Artbildung
-    
-- Phylogenetische Systematik
-    
-- Kladistik
-    
+- Alle Organismen sind aus **Zellen** aufgebaut
+- Biologische Organisation ist **hierarchisch**:
+    ![[Pasted image 20260118184643.png]]
+    - Atome → Moleküle → Makromoleküle
+    - Zellen → Gewebe → Organe → Organismen
+- Es gibt:
+    - **Einzellige Organismen**
+    - **Koloniale Organismen**
+    - **Vielzellige Organismen** mit **Zellspezialisierung**
 
 ---
 
-## 4. Bakterien und Archaeen
+## 3. Geschichte der Erde
 
-- Allgemeine Merkmale
+- **4,6 Milliarden Jahre**: Entstehung der Erde
     
-- Zellaufbau (Prokaryoten)
-    
-- Stoffwechseltypen
-    
-- Fortpflanzung und Genetik
-    
-- Ökologische Bedeutung
-    
-- Bedeutung für den Menschen
-    
-
----
-
-## 5. Viren
-
-- Aufbau von Viren
-    
-- Replikationszyklen
-    
-- Virus-Wirt-Interaktion
-    
-- Bedeutung in Medizin und Biologie
-    
-
----
-
-## 6. Protisten – Überblick
-
-- Allgemeine Merkmale
-    
-- Systematische Einordnung
-    
-
-### 6.1 Protisten (Algen)
-
-- Zellstruktur
-    
-- Photosynthese
-    
-- Fortpflanzung
-    
-- Bedeutung für Ökosysteme
-    
-
-### 6.2 Protisten (tierische Protisten)
-
-- Bewegungsformen
-    
-- Ernährung
-    
-- Fortpflanzung
-    
-- Pathogene Protisten
-    
-
----
-
-## 7. Pilze
-
-- Allgemeine Merkmale
-    
-- Zellaufbau
-    
-- Lebensweisen
-    
-- Fortpflanzung
-    
-- Bedeutung für Mensch und Umwelt
-    
-
----
-
-## 8. Pflanzen – Überblick
-
-- Evolution der Pflanzen
-    
-- Anpassungen an das Landleben
-    
-
-### 8.1 Niedere Pflanzen
-
-- Moose
-    
-- Farne
-    
-
-### 8.2 Höhere Pflanzen
-
-- Samenpflanzen
-    
-- Blütenpflanzen
-    
-
----
-
-## 9. Struktur und Funktion in Pflanzen
-
-- Pflanzenzelle
-    
-- Gewebearten
-    
-- Organe (Wurzel, Spross, Blatt)
-    
-- Wassertransport
-    
-- Photosynthese
-    
-- Mineralstoffaufnahme
-    
-
----
-
-## 10. Agronomie
-
-- Nutzpflanzen
-    
-- Pflanzenzüchtung
-    
-- Landwirtschaftliche Systeme
-    
-- Nachhaltigkeit
-    
-
----
-
-## 11. Populationsgenetik
-
-- Genpools
-    
-- Allelfrequenzen
-    
-- Hardy-Weinberg-Gesetz
-    
-- Evolutionsfaktoren
-    
-
----
-
-## 12. Tiere – Überblick
-
-- Evolution der Tiere
-    
-- Grundbaupläne
-    
-
-### 12.1 Niedere Tiere
-
-- Schwämme
-    
-- Nesseltiere
-    
-
-### 12.2 Protostomier
-
-- Gliederfüßer
-    
-- Weichtiere
-    
-
-### 12.3 Deuterostomier
-
-- Stachelhäuter
-    
-- Chordatiere
-    
-
----
-
-## 13. Säugetiere und Mensch
-
-- Merkmale der Säugetiere
-    
-- Evolution des Menschen
-    
-- Anatomische Besonderheiten
-    
-
----
-
-## 14. Struktur und Funktion in Tieren
-
-- Tierische Zelle
-    
-- Gewebearten
-    
-- Organsysteme:
-    
-    - Nervensystem
+    - Planet aus Gestein, Staub, Wasserdampf
         
-    - Kreislaufsystem
-        
-    - Atmung
-        
-    - Verdauung
-        
-    - Ausscheidung
-        
-    - Fortpflanzung
+- **~4 Milliarden Jahre**:
+    
+    - Synthese **organischer Moleküle**
         
 
 ---
 
-## 15. Zusammenfassende Konzepte
+## 4. Synthese organischer Moleküle
 
-- Struktur–Funktions-Beziehungen
+- Experiment von **Miller & Urey (1953)**
     
-- Evolution als verbindendes Prinzip
+- Annahme einer frühen Atmosphäre mit:
     
-- Vergleich Pflanzen vs. Tiere
+    - CH₄, NH₃, H₂, H₂O
+        
+- Energiezufuhr → Bildung organischer Moleküle
+    
+
+### Alternative Hypothese:
+
+- **Hydrothermale Schlote** am Meeresboden
+    
+    - pH 9–11
+        
+    - 40–90 °C
+        
+
+---
+
+## 5. Synthese von Makromolekülen
+
+- **~4 Milliarden Jahre**
+    
+- Mineralien / Lehm wirken als **Katalysatoren**
+    
+- Ermöglichen:
+    
+    - Polymerisation
+        
+    - Bildung von Vesikeln
+        
+
+---
+
+## 6. Protobionten
+
+- Vorstufen lebender Zellen
+    
+- Eigenschaften:
+    
+    - Membran-umschlossene Räume
+        
+    - Erste Stoffwechselwege
+        
+    - Selbstreplizierende Moleküle (Ribozyme)
+        
+- Zeitlich:
+    
+    - Präbiotische Chemie → RNA-Welt → erste Zellen
+        
+
+---
+
+## 7. Erste Zellen
+
+- **~3,5 Milliarden Jahre**
+    
+- Älteste Fossilien: **Stromatolithen**
+    
+- Erste Lebensformen: **Prokaryoten**
+    
+
+---
+
+## 8. Erhöhung des atmosphärischen Sauerstoffs
+
+- **~2,7 Milliarden Jahre**
+    
+- Sauerstoff stammt aus **biologischer Photosynthese**
+    
+- Reaktionsschema:
+    
+    - CO₂ + H₂O → Zucker + O₂
+        
+- Folgen:
+    
+    - Oxidation von Fe²⁺ → Rostablagerungen
+        
+
+### Sauerstoffrevolution (~2,3 Mrd. Jahre)
+
+- O₂ wirkt als **Zellgift**
+    
+- → **Massenaussterben vieler Prokaryoten**
+    
+- Ermöglicht:
+    
+    - Aerobe Atmung
+        
+    - Entwicklung komplexerer Lebensformen
+        
+
+---
+
+## 9. Prokaryoten vs. Eukaryoten
+
+**Prokaryoten**
+
+- Kein Zellkern
+    
+- Zirkuläre DNA (Nukleoid)
+    
+
+**Eukaryoten**
+
+- Zellkern
+    
+- Lineare Chromosomen
+    
+- Organellen
+    
+
+---
+
+## 10. Erste einzellige Eukaryoten
+
+- **~1,8 Milliarden Jahre**
+    
+- Merkmale:
+    
+    - Zellkern
+        
+    - Endomembransystem
+        
+    - Mitochondrien
+        
+    - Zytoskelett
+        
+
+### Endosymbiontentheorie
+
+- Ursprung der Organellen:
+    
+    - Mitochondrien aus aeroben Bakterien
+        
+    - Chloroplasten aus Cyanobakterien
+        
+- Belege:
+    
+    - Doppelte Membran
+        
+    - Zirkuläre DNA
+        
+    - Eigene Teilung
+        
+    - Prokaryotische Ribosomen
+        
+
+---
+
+## 11. Multizelluläre Eukaryoten
+
+- **~1,2 Milliarden Jahre**
+    
+- Vorteil:
+    
+    - **Spezialisierte Zellen (Arbeitsteilung)**
+        
+- Diversifizierung:
+    
+    - Algen
+        
+    - Pilze
+        
+    - Pflanzen
+        
+    - Tiere
+        
+
+---
+
+## 12. Kambrische Explosion
+
+- **~525 Millionen Jahre**
+    
+- Rasche Zunahme der Tierstämme
+    
+- Entwicklung räuberischer Lebensweisen
+    
+
+---
+
+## 13. Besiedlung des Landes
+
+- **~500 Millionen Jahre**
+    
+- Pilze und Pflanzen kolonisieren Land gemeinsam
+    
+- Symbiose: **Mykorrhiza**
+    
+- **~425 Millionen Jahre**:
+    
+    - Erste vaskuläre Pflanzen
+        
+
+---
+
+## 14. Massenaussterben
+
+- **Perm (251 Mio. Jahre)**:
+    
+    - 96 % der marinen Arten
+        
+- **Trias (200 Mio. Jahre)**:
+    
+    - Vulkanismus → Erwärmung → Ozeanversauerung
+        
+- **Kreide (65 Mio. Jahre)**:
+    
+    - Meteorit → Aussterben der Dinosaurier (außer Vögel)
+        
+
+👉 Folgen:
+
+- Adaptive Radiation
+    
+- Aufstieg neuer Tiergruppen (z. B. Säugetiere)
+    
+
+---
+
+## 15. Fossiliendatierung
+
+- **Radiometrische Datierung**
+    
+    - z. B. C-14 (nur bis ~75.000 Jahre)
+        
+    - U-Pb, K-Ar für ältere Gesteine
+        
+- Fossilien selbst meist **indirekt datiert** (über Gestein)
+    
+
+---
+
+## 16. Kontinentaldrift
+
+- Plattentektonik beeinflusst Evolution durch:
+    
+    - Klimaveränderungen
+        
+    - Meeresspiegelschwankungen
+        
+    - Isolation von Populationen

@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "right": {
     "id": "31eea603abe8a925",
@@ -232,6 +233,7 @@
   },
   "active": "1bfcf30218582609",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260118184643.png",
     "Uni/WiSe26/Betriebssysteme/Kapitel 4 - not Synced.md",
     "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
     "Uni/WiSe26/Allg. Bio",
