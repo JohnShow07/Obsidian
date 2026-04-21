@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
+                "file": "2026-01-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Allgemeine Biologie"
+              "title": "2026-01-20"
             }
           }
         ],
@@ -214,28 +214,28 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false,
       "terminal:Open terminal": false,
       "templater-obsidian:Templater": false,
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1bfcf30218582609",
   "lastOpenFiles": [
+    "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
+    "2026-01-20.md",
     "attachments/Pasted image 20260118184643.png",
     "Uni/WiSe26/Betriebssysteme/Kapitel 4 - not Synced.md",
-    "Uni/WiSe26/Allg. Bio/Allgemeine Biologie.md",
     "Uni/WiSe26/Allg. Bio",
     "ToDO/2025-11-11.md",
     "Uni/WiSe26/Betriebssysteme/Kapitel 4.md",
@@ -257,7 +257,6 @@
     "Templates/Überstreichen.md",
     "Templates/Untersctreichen.md",
     "Templates",
-    "attachments/Pasted image 20251117171546.png",
     "Uni/WiSe26/DB2/Untitled.canvas",
     "Uni/WiSe26/DB2/Untitled",
     "Uni/WiSe26/Betriebssysteme/Kapitel 2.md",
