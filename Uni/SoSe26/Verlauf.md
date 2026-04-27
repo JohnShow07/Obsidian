@@ -1,4 +1,9 @@
 
+ProPra: https://github.com/hhu-propra1-ss26/Organisation
+Mathe2:
+Data:
+CProgra:
+Verteilte:
 
 |   Timeline   | ProPra | CProgra | Mathe2 | Data | Verteilte | Where are we? |
 | :----------: | :----: | :-----: | :----: | :--: | :-------: | :-----------: |
@@ -8,3 +13,5 @@
 |  Mai-Woche4  |        |         |        |      |           |               |
 |  Mai-Woche5  |        |         |        |      |           |               |
 |  Mai-Woche6  |        |         |        |      |           |               |
+|              |        |         |        |      |           |               |
+|              |        |         |        |      |           |               |
